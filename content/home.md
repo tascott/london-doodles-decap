@@ -23,22 +23,22 @@ about:
 features:
   - title: Deposit Required
     description: Our puppies come with a full health guarantee and are vet checked before going to their new homes.
-    icon: 🏠
+    icon: home
   - title: DNA Tested
     description: All our breeding dogs are DNA tested for genetic conditions common to the breed.
-    icon: 🧬
+    icon: biotech
   - title: Raised around our family
     description: Our puppies are raised in our home with our family, ensuring they are well socialized.
-    icon: 👨‍👩‍👧‍👦
+    icon: family_restroom
   - title: Health & Training
     description: All puppies come with initial vaccinations and basic training.
-    icon: 💉
+    icon: medical_services
   - title: Extensive Puppy Pack
     description: Puppies come with a comprehensive pack including food, toys, and care instructions.
-    icon: 📦
+    icon: inventory_2
   - title: Breeding time
     description: We carefully time our breeding to ensure healthy puppies and mothers.
-    icon: ⏰
+    icon: schedule
 gallery:
   title: Previous Litters
   images:
@@ -70,4 +70,13 @@ contact:
     spirit of God on earth. When you buy a dog from us, you are not only getting a puppy but a life long
     journey into the life of a Labradoodle and all the love that comes with it. We are always on hand to
     help guide you through your journey.
+testimonials:
+  title: What Our Families Say
+  items:
+    - quote: "Our puppy has brought so much joy to our family. The breeder was professional and caring throughout the entire process."
+      author: "Sarah & Family"
+    - quote: "Excellent experience from start to finish. Our doodle is healthy, happy, and exactly what we wanted!"
+      author: "The Thompson Family"
+    - quote: "The ongoing support even after bringing our puppy home has been amazing. They really care about their dogs."
+      author: "Lisa Anderson"
 ---

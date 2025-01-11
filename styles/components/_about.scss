@@ -10,7 +10,7 @@
     font-size: 2.5rem;
     font-weight: normal;
     color: $text-color;
-    margin-bottom: $spacing-lg;
+    margin-bottom: $spacing-sm;
   }
 
   &__carousel {
@@ -101,19 +101,20 @@
     padding: $spacing-md 0;
 
     &__carousel {
-      gap: $spacing-sm;
+      padding: 0 2px;
+      gap: 0;
     }
 
     &__panels {
       height: auto;
-      min-height: 600px;
+      min-height: 400px;
     }
 
     &__panel {
       flex-direction: column;
       position: absolute;
       height: 100%;
-      gap: $spacing-md;
+      gap: 0;
 
       &--active {
         position: relative;
@@ -122,28 +123,44 @@
 
     &__content {
       flex: none;
-      padding: $spacing-sm;
+      padding: $spacing-md;
+      position: absolute;
+      inset: 0;
+      z-index: 2;
+      background-color: rgba(255, 255, 255, 0.9);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
     }
 
     &__panel-title {
       font-size: 1.25rem;
       margin-bottom: $spacing-sm;
+      position: relative;
     }
 
     &__panel-text {
       font-size: 1rem;
+      position: relative;
     }
 
     &__image-container {
       flex: none;
       width: 100%;
-      height: 300px;
-      margin-bottom: $spacing-sm;
+      height: 400px;
+      margin-bottom: 0;
+      position: relative;
+      z-index: 1;
+    }
+
+    &__image {
+      object-fit: cover;
     }
 
     &__nav {
       font-size: 1.5rem;
       padding: $spacing-sm;
+      z-index: 3;
     }
   }
 }

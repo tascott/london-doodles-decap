@@ -89,7 +89,12 @@ const Features = ({ features }) => (
     <div className="features__grid">
       {features.map((feature, index) => (
         <div key={index} className="features__item">
-          <span className="features__icon">{feature.icon}</span>
+          <span
+            className="material-icons features__icon"
+            data-icon={feature.icon}
+          >
+            {feature.icon}
+          </span>
           <h3 className="features__title">{feature.title}</h3>
           <p className="features__description">{feature.description}</p>
         </div>
@@ -129,6 +134,25 @@ const UpcomingLitters = ({ data }) => (
           <p className="upcoming-litters__item-description">{litter.description}</p>
         </div>
       ))}
+    </div>
+  </section>
+);
+
+const Testimonials = ({ data }) => (
+  <section className="testimonials">
+    <div className="testimonials__container">
+      <h2 className="testimonials__title">{data.title}</h2>
+      <div className="testimonials__grid">
+        {data.items.map((testimonial, index) => (
+          <div key={index} className="testimonials__card">
+            <p className="testimonials__quote">
+              <span className="material-icons testimonials__quote-mark">format_quote</span>
+              {testimonial.quote}
+            </p>
+            <p className="testimonials__author">{testimonial.author}</p>
+          </div>
+        ))}
+      </div>
     </div>
   </section>
 );
@@ -207,6 +231,7 @@ export default function Home({ data }) {
         <Features features={data.features} />
         <Gallery data={data.gallery} />
         <UpcomingLitters data={data.upcomingLitters} />
+        <Testimonials data={data.testimonials} />
         <Contact data={data.contact} />
       </main>
     </>
