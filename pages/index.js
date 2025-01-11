@@ -20,8 +20,8 @@ const Hero = ({ data }) => (
     </div>
     <div className="hero__content">
       <div>
-        <h1 className="hero__title">{data.title}</h1>
-        <p className="hero__subtitle">{data.subtitle}</p>
+        <h1 className="hero__title">{data?.title}</h1>
+        <p className="hero__subtitle">{data?.subtitle}</p>
       </div>
     </div>
   </div>

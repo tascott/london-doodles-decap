@@ -22,7 +22,6 @@ about:
       content: >
         Our aim is to achieve the type of Australian Labradoodle with our own
         specific breeding, and offer loving family pets.
-      image: /images/dogs.jpg
       image: /images/bonnie.jpg
 features:
   - title: Deposit Required
