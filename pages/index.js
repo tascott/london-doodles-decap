@@ -1,90 +1,143 @@
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
 
-// Component imports
 const Hero = ({ data }) => (
-  <div className="relative h-[600px]">
-    <div className="absolute inset-0">
+  <div className="hero">
+    <div className="hero__image-container">
       <Image
-        src={data.image}
+        src="/images/dogs.jpg"
         alt="Hero"
         fill
         className="object-cover"
         priority
       />
-      <div className="absolute inset-0 bg-black/40"></div>
     </div>
-    <div className="relative h-full flex items-center justify-center text-center text-white px-4">
+    <div className="hero__content">
       <div>
-        <h1 className="text-5xl font-bold mb-4">{data.title}</h1>
-        <p className="text-xl">{data.subtitle}</p>
+        <h1 className="hero__title">{data.title}</h1>
+        <p className="hero__subtitle">{data.subtitle}</p>
       </div>
     </div>
   </div>
 );
 
-const Litters = ({ data }) => (
-  <section className="py-16 px-4 bg-gray-50">
-    <div className="max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold text-center mb-12">{data.title}</h2>
-      <div className="grid md:grid-cols-2 gap-8">
-        {data.puppies.map((puppy, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-lg overflow-hidden">
-            <div className="relative h-64">
-              <Image
-                src={puppy.image}
-                alt={puppy.name}
-                fill
-                className="object-cover"
-              />
-            </div>
-            <div className="p-6">
-              <h3 className="text-xl font-bold mb-2">{puppy.name}</h3>
-              <p className="text-gray-600 mb-2">{puppy.description}</p>
-              <div className="flex justify-between items-center">
-                <span className="text-xl font-bold text-green-600">{puppy.price}</span>
-                <span className="px-3 py-1 bg-blue-100 text-blue-800 rounded-full text-sm">
-                  {puppy.status}
-                </span>
+const About = ({ data }) => {
+  const [currentPanel, setCurrentPanel] = useState(0);
+
+  const nextPanel = () => {
+    setCurrentPanel((prev) => (prev + 1) % data.panels.length);
+  };
+
+  const prevPanel = () => {
+    setCurrentPanel((prev) => (prev - 1 + data.panels.length) % data.panels.length);
+  };
+
+  // Auto-rotation effect
+  useEffect(() => {
+    const timer = setInterval(() => {
+      nextPanel();
+    }, 10000); // 10 seconds
+
+    // Cleanup on unmount
+    return () => clearInterval(timer);
+  }, []); // Empty dependency array means this only runs once on mount
+
+  return (
+    <section className="about" id="about">
+      <h2 className="about__title">{data.title}</h2>
+      <div className="about__carousel">
+        <button className="about__nav about__nav--prev" onClick={prevPanel}>
+          ←
+        </button>
+        <div className="about__panels">
+          {data.panels.map((panel, index) => (
+            <div
+              key={index}
+              className={`about__panel ${index === currentPanel ? 'about__panel--active' : ''}`}
+            >
+              <div className="about__content">
+                <h3 className="about__panel-title">{panel.title}</h3>
+                <div className="about__panel-text" dangerouslySetInnerHTML={{ __html: panel.content }} />
+              </div>
+              <div className="about__image-container">
+                <Image
+                  src={panel.image}
+                  alt={panel.title}
+                  fill
+                  className="about__image"
+                />
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
+        <button className="about__nav about__nav--next" onClick={nextPanel}>
+          →
+        </button>
       </div>
+    </section>
+  );
+};
+
+const Features = ({ features }) => (
+  <section className="features">
+    <div className="features__grid">
+      {features.map((feature, index) => (
+        <div key={index} className="features__item">
+          <span className="features__icon">{feature.icon}</span>
+          <h3 className="features__title">{feature.title}</h3>
+          <p className="features__description">{feature.description}</p>
+        </div>
+      ))}
     </div>
   </section>
 );
 
-const Testimonials = ({ data }) => (
-  <section className="py-16 px-4">
-    <div className="max-w-6xl mx-auto">
-      <h2 className="text-3xl font-bold text-center mb-12">{data.title}</h2>
-      <div className="grid md:grid-cols-3 gap-8">
-        {data.items.map((testimonial, index) => (
-          <div key={index} className="bg-white p-6 rounded-lg shadow">
-            <p className="text-gray-600 italic mb-4">"{testimonial.quote}"</p>
-            <p className="font-bold">- {testimonial.author}</p>
+const Gallery = ({ data }) => (
+  <section className="gallery" id="gallery">
+    <h2 className="gallery__title">{data.title}</h2>
+    <div className="gallery__grid">
+      {data.images.map((image, index) => (
+        <div key={index} className="gallery__item">
+          <div className="gallery__image-container">
+            <Image
+              src="/images/dogs.jpg"
+              alt={image.alt}
+              fill
+              className="gallery__image"
+            />
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   </section>
 );
 
-const CTA = ({ data }) => (
-  <section className="py-16 px-4 bg-blue-600 text-white">
-    <div className="max-w-4xl mx-auto text-center">
-      <h2 className="text-3xl font-bold mb-4">{data.title}</h2>
-      <p className="mb-8">{data.description}</p>
-      <a
-        href={data.buttonLink}
-        className="inline-block bg-white text-blue-600 px-8 py-3 rounded-full font-bold hover:bg-blue-50 transition-colors"
-      >
-        {data.buttonText}
-      </a>
+const UpcomingLitters = ({ data }) => (
+  <section className="upcoming-litters" id="litters">
+    <h2 className="upcoming-litters__title">{data.title}</h2>
+    <div className="upcoming-litters__grid">
+      {data.litters.map((litter, index) => (
+        <div key={index} className="upcoming-litters__item">
+          <h3 className="upcoming-litters__item-title">{litter.title}</h3>
+          <p className="upcoming-litters__item-date">{litter.date}</p>
+          <p className="upcoming-litters__item-description">{litter.description}</p>
+        </div>
+      ))}
+    </div>
+  </section>
+);
+
+const Contact = ({ data }) => (
+  <section className="contact" id="contact">
+    <div className="contact__container">
+      <h2 className="contact__title">{data.title}</h2>
+      <p className="contact__description">{data.description}</p>
+      <div className="contact__form-placeholder">
+        Contact form will be added here
+      </div>
     </div>
   </section>
 );
@@ -93,9 +146,11 @@ export default function Home({ data }) {
   return (
     <main>
       <Hero data={data.hero} />
-      <Litters data={data.availableLitters} />
-      <Testimonials data={data.testimonials} />
-      <CTA data={data.cta} />
+      <About data={data.about} />
+      <Features features={data.features} />
+      <Gallery data={data.gallery} />
+      <UpcomingLitters data={data.upcomingLitters} />
+      <Contact data={data.contact} />
     </main>
   );
 }

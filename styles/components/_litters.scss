@@ -1,0 +1,68 @@
+@use '../index' as *;
+
+.litters {
+  padding: $spacing-lg 0;
+  background-color: $light-gray;
+
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: $spacing-lg;
+  }
+
+  &__grid {
+    @include responsive-grid(2);
+  }
+
+  &__card {
+    background: $white;
+    border-radius: 0.5rem;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+
+    &-image {
+      position: relative;
+      height: 256px;
+    }
+
+    &-content {
+      padding: $spacing-md;
+    }
+
+    &-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: $spacing-sm;
+    }
+
+    &-description {
+      color: #6b7280;
+      margin-bottom: $spacing-sm;
+    }
+
+    &-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &-price {
+      font-size: 1.25rem;
+      font-weight: bold;
+      color: #16a34a;
+    }
+
+    &-status {
+      padding: 0.25rem 0.75rem;
+      border-radius: 9999px;
+      background: #dbeafe;
+      color: #1e40af;
+      font-size: 0.875rem;
+    }
+  }
+}

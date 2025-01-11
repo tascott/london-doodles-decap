@@ -1,0 +1,37 @@
+@use '../index' as *;
+
+.testimonials {
+  padding: $spacing-lg 0;
+
+  &__container {
+    @include container;
+  }
+
+  &__title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: $spacing-lg;
+  }
+
+  &__grid {
+    @include responsive-grid(3);
+  }
+
+  &__card {
+    background: $white;
+    padding: $spacing-md;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgb(0 0 0 / 0.1);
+
+    &-quote {
+      color: #6b7280;
+      font-style: italic;
+      margin-bottom: $spacing-sm;
+    }
+
+    &-author {
+      font-weight: bold;
+    }
+  }
+}

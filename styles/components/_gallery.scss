@@ -1,0 +1,44 @@
+@use '../index' as *;
+
+.gallery {
+  padding: $spacing-lg 0;
+  background-color: $white;
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: $spacing-lg;
+    color: $text-color;
+  }
+
+  &__grid {
+    @include container;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: $spacing-md;
+    padding: $spacing-sm;
+  }
+
+  &__item {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+  }
+
+  &__image-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 100%; // This makes it square
+  }
+
+  &__image {
+    position: absolute;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+  }
+}

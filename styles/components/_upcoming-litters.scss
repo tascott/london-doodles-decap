@@ -1,0 +1,47 @@
+@use '../index' as *;
+
+.upcoming-litters {
+  padding: $spacing-lg 0;
+  background-color: $light-gray;
+
+  &__title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: $spacing-lg;
+    color: $text-color;
+  }
+
+  &__grid {
+    @include container;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: $spacing-md;
+    padding: $spacing-sm;
+  }
+
+  &__item {
+    background: $white;
+    padding: $spacing-md;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+
+    &-title {
+      font-size: 1.25rem;
+      font-weight: bold;
+      margin-bottom: $spacing-sm;
+      color: $text-color;
+    }
+
+    &-date {
+      color: $primary-color;
+      font-weight: bold;
+      margin-bottom: $spacing-sm;
+    }
+
+    &-description {
+      color: #6b7280;
+      line-height: 1.6;
+    }
+  }
+}

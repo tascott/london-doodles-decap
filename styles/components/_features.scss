@@ -1,0 +1,48 @@
+@use '../index' as *;
+
+.features {
+  padding: $spacing-lg 0;
+  background-color: $light-gray;
+
+  &__grid {
+    @include container;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: $spacing-md;
+    padding: $spacing-md;
+
+    @media (max-width: $breakpoint-md) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    text-align: center;
+    padding: $spacing-md;
+    background: $white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 0.1);
+  }
+
+  &__icon {
+    font-size: 2.5rem;
+    margin-bottom: $spacing-sm;
+    display: block;
+  }
+
+  &__title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-bottom: $spacing-sm;
+    color: $text-color;
+  }
+
+  &__description {
+    color: #6b7280;
+    line-height: 1.6;
+  }
+}
