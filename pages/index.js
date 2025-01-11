@@ -161,11 +161,11 @@ const Testimonials = ({ data }) => (
 const Contact = ({ data }) => (
   <section className="contact" id="contact">
     <div className="contact__container">
-      <h2 className="contact__title">{data.title}</h2>
-      <p className="contact__description">{data.description}</p>
-      <h3 className="contact__form-title">Contact Us</h3>
+      <h2 className="contact__title">{data.aboutUs?.title}</h2>
+      <p className="contact__description">{data.aboutUs?.description}</p>
+      <h3 className="contact__form-title">{data.contact?.title}</h3>
       <form
-        action="https://formspree.io/f/YOUR_FORM_ID"
+        action="https://formspree.io/f/mgejnzkv"
         method="POST"
         className="contact__form"
       >
@@ -285,7 +285,7 @@ export default function Home({ data }) {
         <Gallery data={data.gallery} />
         <UpcomingLitters data={data.upcomingLitters} />
         <Testimonials data={data.testimonials} />
-        <Contact data={data.contact} />
+        <Contact data={data} />
       </main>
     </>
   );

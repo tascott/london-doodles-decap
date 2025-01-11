@@ -62,13 +62,15 @@ upcomingLitters:
     - title: AUSTRALIAN TYPE LABRADOODLES
       description: Should be F1 or up, we offer very special puppies that will be ready to go to their new homes at the end of March 2024. We have three boys and two girls for they new homes on November 15th
       date: April 2024
-contact:
+aboutUs:
   title: A little bit about us
   description: >
     Here at London Doodles we believe good dogs are about as close as we can come to knowing the
     spirit of God on earth. When you buy a dog from us, you are not only getting a puppy but a life long
     journey into the life of a Labradoodle and all the love that comes with it. We are always on hand to
     help guide you through your journey.
+contact:
+  title: Contact Us
 testimonials:
   title: What Our Families Say
   items:
