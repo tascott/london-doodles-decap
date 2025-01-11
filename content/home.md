@@ -23,7 +23,6 @@ about:
         Our aim is to achieve the type of Australian Labradoodle with our own
         specific breeding, and offer loving family pets.
       image: /images/dogs.jpg
-  title: "-"
 features:
   - title: Deposit Required
     description: Our puppies come with a full health guarantee and are vet checked
@@ -63,12 +62,10 @@ gallery:
     - image: /images/img_9759-min.jpg
       alt: Happy doodle
 upcomingLitters:
-  title: Upcoming Litters
+  title: Upcoming Litters and Prices
   litters:
     - title: MINIATURE AUSTRALIAN TYPE LABRADOODLES
-      description: We have just made available two new litters that will be ready to
-        go to their new homes at the end of March 2024. We have three boys and
-        two girls for they new homes on November 15th
+      description: We have just made available two new litters that will be ready to go to their new homes at the end of March 2024. We have three boys and two girls for they new homes on November 15th
       date: March 2024
     - title: AUSTRALIAN TYPE LABRADOODLES
       description: Should be F1 or up, we offer very special puppies that will be

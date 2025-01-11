@@ -24,9 +24,6 @@ collections:
             name: "about"
             widget: "object"
             fields:
-              - label: "Title"
-                name: "title"
-                widget: "string"
               - label: "Panels"
                 name: "panels"
                 widget: "list"

@@ -255,9 +255,6 @@ const Nav = () => {
             <button onClick={() => scrollToSection('about')} className="nav__link">
               What We Do
             </button>
-            <button className="nav__link">
-              Prices
-            </button>
             <button onClick={() => scrollToSection('about')} className="nav__link">
               About Us
             </button>
@@ -265,7 +262,7 @@ const Nav = () => {
               Contact
             </button>
             <button onClick={() => scrollToSection('litters')} className="nav__link">
-              Available Puppies
+              Upcoming Litters/Prices
             </button>
           </div>
         </div>

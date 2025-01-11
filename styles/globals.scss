@@ -26,7 +26,13 @@ img {
   height: auto;
 }
 
-// Add padding to main to account for fixed nav
+
 main {
-  padding-top: 100px; // Adjust this value based on your combined nav height
+  padding-top: 40px;
+}
+
+@media (max-width: $breakpoint-md) {
+  main {
+    padding-top: 0px;
+  }
 }
