@@ -163,9 +163,50 @@ const Contact = ({ data }) => (
     <div className="contact__container">
       <h2 className="contact__title">{data.title}</h2>
       <p className="contact__description">{data.description}</p>
-      <div className="contact__form-placeholder">
-        Contact form will be added here
-      </div>
+      <h3 className="contact__form-title">Contact Us</h3>
+      <form
+        action="https://formspree.io/f/YOUR_FORM_ID"
+        method="POST"
+        className="contact__form"
+      >
+        <div className="contact__form-group">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            className="contact__input"
+          />
+        </div>
+        <div className="contact__form-group">
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            className="contact__input"
+          />
+        </div>
+        <div className="contact__form-group">
+          <input
+            type="tel"
+            name="phone"
+            placeholder="Your Phone (optional)"
+            className="contact__input"
+          />
+        </div>
+        <div className="contact__form-group">
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+            className="contact__input contact__textarea"
+          ></textarea>
+        </div>
+        <button type="submit" className="contact__submit">
+          Send Message
+        </button>
+      </form>
     </div>
   </section>
 );
@@ -190,7 +231,7 @@ const Nav = () => {
         <div className="top-bar__container">
           <div className="top-bar__logo">
             <Image
-              src="/images/logo-1.png"
+              src="/images/logo10.png"
               alt="London Doodles"
               width={167}
               height={50}
