@@ -11,7 +11,6 @@
     font-weight: normal;
     color: $text-color;
     margin-bottom: $spacing-lg;
-    font-family: 'Courier New', Courier, monospace; // For the handwritten look
   }
 
   &__carousel {
@@ -99,13 +98,52 @@
   }
 
   @media (max-width: $breakpoint-md) {
+    padding: $spacing-md 0;
+
+    &__carousel {
+      gap: $spacing-sm;
+    }
+
+    &__panels {
+      height: auto;
+      min-height: 600px;
+    }
+
     &__panel {
       flex-direction: column;
+      position: absolute;
+      height: 100%;
+      gap: $spacing-md;
+
+      &--active {
+        position: relative;
+      }
+    }
+
+    &__content {
+      flex: none;
+      padding: $spacing-sm;
+    }
+
+    &__panel-title {
+      font-size: 1.25rem;
+      margin-bottom: $spacing-sm;
+    }
+
+    &__panel-text {
+      font-size: 1rem;
     }
 
     &__image-container {
+      flex: none;
       width: 100%;
       height: 300px;
+      margin-bottom: $spacing-sm;
+    }
+
+    &__nav {
+      font-size: 1.5rem;
+      padding: $spacing-sm;
     }
   }
 }

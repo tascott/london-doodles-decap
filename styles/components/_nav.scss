@@ -1,0 +1,92 @@
+@use '../index' as *;
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 50;
+  background-color: $white;
+}
+
+.top-bar {
+  background-color: $white;
+  padding: $spacing-sm 0;
+
+  &__container {
+    @include container;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  &__logo {
+    &-image {
+      height: 50px !important;
+      width: auto !important;
+    }
+  }
+
+  &__email {
+    color: #666;
+    text-decoration: none;
+    font-size: 0.9rem;
+
+    &:hover {
+      color: $primary-color;
+    }
+  }
+
+  @media (max-width: $breakpoint-md) {
+    &__logo {
+      &-image {
+        height: 40px !important;
+      }
+    }
+  }
+}
+
+.nav {
+  background-color: #004d4d; // Dark teal color from the image
+  padding: 0.5rem 0;
+
+  &__container {
+    @include container;
+  }
+
+  &__links {
+    display: flex;
+    justify-content: flex-start;
+    gap: $spacing-md;
+  }
+
+  &__link {
+    background: none;
+    border: none;
+    font-size: 0.9rem;
+    color: rgba($white, 0.8);
+    padding: 0.5rem;
+    cursor: pointer;
+    position: relative;
+    font-weight: 400;
+    transition: color 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+
+    &:hover {
+      color: $white;
+    }
+  }
+
+  @media (max-width: $breakpoint-md) {
+    &__links {
+      gap: $spacing-sm;
+      justify-content: space-between;
+    }
+
+    &__link {
+      font-size: 0.8rem;
+      padding: 0.5rem 0.25rem;
+    }
+  }
+}

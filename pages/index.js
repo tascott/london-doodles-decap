@@ -11,8 +11,11 @@ const Hero = ({ data }) => (
         src="/images/dogs.jpg"
         alt="Hero"
         fill
-        className="object-cover"
+        className="hero__image"
         priority
+        quality={100}
+        sizes="100vw"
+        style={{ objectFit: 'cover' }}
       />
     </div>
     <div className="hero__content">
@@ -142,16 +145,71 @@ const Contact = ({ data }) => (
   </section>
 );
 
+const Nav = () => {
+  const scrollToSection = (id) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  return (
+    <header className="header">
+      <div className="top-bar">
+        <div className="top-bar__container">
+          <div className="top-bar__logo">
+            <Image
+              src="/images/logo-1.png"
+              alt="London Doodles"
+              width={167}
+              height={50}
+              className="top-bar__logo-image"
+              priority
+            />
+          </div>
+          <a href="mailto:amy@londondoodledogs.com" className="top-bar__email">
+            amy@londondoodledogs.com
+          </a>
+        </div>
+      </div>
+      <nav className="nav">
+        <div className="nav__container">
+          <div className="nav__links">
+            <button onClick={() => scrollToSection('about')} className="nav__link">
+              What We Do
+            </button>
+            <button className="nav__link">
+              Prices
+            </button>
+            <button onClick={() => scrollToSection('about')} className="nav__link">
+              About Us
+            </button>
+            <button onClick={() => scrollToSection('contact')} className="nav__link">
+              Contact
+            </button>
+            <button onClick={() => scrollToSection('litters')} className="nav__link">
+              Available Puppies
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+  );
+};
+
 export default function Home({ data }) {
   return (
-    <main>
-      <Hero data={data.hero} />
-      <About data={data.about} />
-      <Features features={data.features} />
-      <Gallery data={data.gallery} />
-      <UpcomingLitters data={data.upcomingLitters} />
-      <Contact data={data.contact} />
-    </main>
+    <>
+      <Nav />
+      <main>
+        <Hero data={data.hero} />
+        <About data={data.about} />
+        <Features features={data.features} />
+        <Gallery data={data.gallery} />
+        <UpcomingLitters data={data.upcomingLitters} />
+        <Contact data={data.contact} />
+      </main>
+    </>
   );
 }
 
