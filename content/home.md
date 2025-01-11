@@ -2,7 +2,7 @@
 hero:
   title: London Doodles
   subtitle: FAMILY HOME BREEDERS IN NORTH LONDON
-  image: /images/hero-banner.jpg
+  image: /images/dogs.jpg
 about:
   panels:
     - title: Our Home Breeding
@@ -41,17 +41,17 @@ features:
 gallery:
   title: Previous Litters
   images:
-    - image: /images/puppy1.jpg
+    - image: /images/dogs.jpg
       alt: Chocolate doodle puppy
-    - image: /images/puppy2.jpg
+    - image: /images/dogs.jpg
       alt: Golden doodle playing
-    - image: /images/puppy3.jpg
+    - image: /images/dogs.jpg
       alt: Doodle family
-    - image: /images/puppy4.jpg
+    - image: /images/dogs.jpg
       alt: Puppy portrait
-    - image: /images/puppy5.jpg
+    - image: /images/dogs.jpg
       alt: Sleeping puppy
-    - image: /images/puppy6.jpg
+    - image: /images/dogs.jpg
       alt: Happy doodle
 upcomingLitters:
   title: Upcoming Litters

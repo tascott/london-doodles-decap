@@ -105,9 +105,14 @@ const Gallery = ({ data }) => (
     <div className="gallery__grid">
       {data.images.map((image, index) => (
         <div key={index} className="gallery__item">
-          <div className="gallery__image-container">
+          <div
+            className="gallery__image-container"
+            style={{
+              paddingBottom: `${100 + (index % 3) * 25}%` // Varies height between 100-150%
+            }}
+          >
             <Image
-              src="/images/dogs.jpg"
+              src={image.image} // Use actual image path from data
               alt={image.alt}
               fill
               className="gallery__image"
