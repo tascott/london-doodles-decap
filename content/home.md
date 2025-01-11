@@ -11,18 +11,19 @@ about:
         to the hub of the home. We like them to be fully immersed in a normal
         home environment. The start of a puppy's life is a hugely important
         aspect in creating a stable family dog.
-      image: /images/dogs.jpg
+      image: /images/bg-banner.jpg
     - title: Our Experience
       content: >
         We have been working as a family on our lines for nearly 10 years, but
         we are still working towards our goal, by adding new lines and opening
         the gene pool to create stronger lines.
-      image: /images/dogs.jpg
+      image: /images/millie.jpg
     - title: Our Goal
       content: >
         Our aim is to achieve the type of Australian Labradoodle with our own
         specific breeding, and offer loving family pets.
       image: /images/dogs.jpg
+      image: /images/bonnie.jpg
 features:
   - title: Deposit Required
     description: Our puppies come with a full health guarantee and are vet checked
