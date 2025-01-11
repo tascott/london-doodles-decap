@@ -12,6 +12,7 @@
 .top-bar {
   background-color: $white;
   padding: $spacing-sm 0;
+  border-bottom: 1px solid #eee;
 
   &__container {
     @include container;
@@ -21,34 +22,31 @@
   }
 
   &__logo {
+    height: 50px;
+
     &-image {
-      height: 50px !important;
+      height: 100% !important;
       width: auto !important;
+    }
+
+    @media (max-width: $breakpoint-md) {
+      height: 40px;
     }
   }
 
   &__email {
-    color: #666;
+    color: $text-color;
     text-decoration: none;
-    font-size: 0.9rem;
+    font-size: 1rem;
 
-    &:hover {
-      color: $primary-color;
-    }
-  }
-
-  @media (max-width: $breakpoint-md) {
-    &__logo {
-      &-image {
-        height: 40px !important;
-      }
+    @media (max-width: $breakpoint-md) {
+      display: none;
     }
   }
 }
 
 .nav {
-  background-color: #004d4d; // Dark teal color from the image
-  padding: 0.5rem 0;
+  background-color: $nav-bg;
 
   &__container {
     @include container;
@@ -56,37 +54,75 @@
 
   &__links {
     display: flex;
-    justify-content: flex-start;
     gap: $spacing-md;
+    padding: $spacing-sm 0;
   }
 
   &__link {
+    color: $white;
+    text-decoration: none;
     background: none;
     border: none;
-    font-size: 0.9rem;
-    color: rgba($white, 0.8);
-    padding: 0.5rem;
     cursor: pointer;
-    position: relative;
-    font-weight: 400;
-    transition: color 0.3s ease;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-size: 1rem;
+    padding: $spacing-sm;
+    transition: opacity 0.3s ease;
 
     &:hover {
-      color: $white;
+      opacity: 0.8;
+    }
+  }
+
+  &__mobile-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: $text-color;
+    cursor: pointer;
+    padding: $spacing-sm;
+
+    .material-icons {
+      font-size: 1.8rem;
     }
   }
 
   @media (max-width: $breakpoint-md) {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: $nav-bg;
+    z-index: 100;
+
+    &--open {
+      display: block;
+    }
+
+    &__container {
+      padding: 0;
+    }
+
     &__links {
-      gap: $spacing-sm;
-      justify-content: space-between;
+      flex-direction: column;
+      gap: 0;
+      padding: 0;
     }
 
     &__link {
-      font-size: 0.8rem;
-      padding: 0.5rem 0.25rem;
+      display: block;
+      width: 100%;
+      padding: $spacing-sm $spacing-md;
+      text-align: left;
+      border-bottom: 1px solid rgba($white, 0.1);
+
+      &:hover {
+        background-color: rgba($white, 0.1);
+      }
+    }
+
+    &__mobile-toggle {
+      display: block;
     }
   }
 }

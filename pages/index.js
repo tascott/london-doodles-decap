@@ -38,19 +38,15 @@ const About = ({ data }) => {
     setCurrentPanel((prev) => (prev - 1 + data.panels.length) % data.panels.length);
   };
 
-  // Auto-rotation effect
   useEffect(() => {
     const timer = setInterval(() => {
       nextPanel();
-    }, 10000); // 10 seconds
-
-    // Cleanup on unmount
+    }, 10000);
     return () => clearInterval(timer);
-  }, []); // Empty dependency array means this only runs once on mount
+  }, []);
 
   return (
     <section className="about" id="about">
-      <h2 className="about__title">{data.title}</h2>
       <div className="about__carousel">
         <button className="about__nav about__nav--prev" onClick={prevPanel}>
           ←
@@ -177,6 +173,12 @@ const Nav = () => {
     }
   };
 
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+
   return (
     <header className="header">
       <div className="top-bar">
@@ -194,9 +196,14 @@ const Nav = () => {
           <a href="mailto:amy@londondoodledogs.com" className="top-bar__email">
             amy@londondoodledogs.com
           </a>
+          <button className="nav__mobile-toggle" onClick={toggleMenu}>
+            <span className="material-icons">
+              {isMenuOpen ? 'close' : 'menu'}
+            </span>
+          </button>
         </div>
       </div>
-      <nav className="nav">
+      <nav className={`nav ${isMenuOpen ? 'nav--open' : ''}`}>
         <div className="nav__container">
           <div className="nav__links">
             <button onClick={() => scrollToSection('about')} className="nav__link">

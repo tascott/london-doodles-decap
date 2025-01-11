@@ -5,14 +5,6 @@
   background-color: $white;
   overflow: hidden;
 
-  &__title {
-    text-align: center;
-    font-size: 2.5rem;
-    font-weight: normal;
-    color: $text-color;
-    margin-bottom: $spacing-sm;
-  }
-
   &__carousel {
     @include container;
     position: relative;

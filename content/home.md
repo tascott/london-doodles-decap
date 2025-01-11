@@ -1,10 +1,9 @@
 ---
 hero:
   title: London Doodles
-  subtitle: FAMILY-STYLE BREEDING IN NORTH LONDON
+  subtitle: FAMILY HOME BREEDERS IN NORTH LONDON
   image: /images/hero-banner.jpg
 about:
-  title: We breed beautiful Australian Type Labradoodles and English Labradoodles
   panels:
     - title: Our Home Breeding
       content: >
