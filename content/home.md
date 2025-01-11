@@ -1,6 +1,6 @@
 ---
 hero:
-  title: London Doodles
+  title: London Doodles yas
   subtitle: FAMILY HOME BREEDERS IN NORTH LONDON
   image: /images/dogs.jpg
 about:
@@ -65,7 +65,9 @@ upcomingLitters:
   title: Upcoming Litters and Prices
   litters:
     - title: MINIATURE AUSTRALIAN TYPE LABRADOODLES
-      description: We have just made available two new litters that will be ready to go to their new homes at the end of March 2024. We have three boys and two girls for they new homes on November 15th
+      description: We have just made available two new litters that will be ready to
+        go to their new homes at the end of March 2024. We have three boys and
+        two girls for they new homes on November 15th
       date: March 2024
     - title: AUSTRALIAN TYPE LABRADOODLES
       description: Should be F1 or up, we offer very special puppies that will be
