@@ -1,6 +1,6 @@
 ---
 hero:
-  title: London Doodles yas
+  title: London Doodles
   subtitle: FAMILY HOME BREEDERS IN NORTH LONDON
   image: /images/dogs.jpg
 about:
