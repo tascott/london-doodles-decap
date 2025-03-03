@@ -2,7 +2,7 @@
 
 A Next.js website for London Doodles, a family-run dog breeding business in North London. The site features a modern design and is fully content-managed through Decap CMS.
 
-View the site at [londondoodles.netlify.app](https://londondoodles.netlify.app/)
+View the site at [londondoodles.netlify.app](https://londondoodledogs.com)
 
 ## Features
 
