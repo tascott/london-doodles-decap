@@ -65,15 +65,19 @@ upcomingLitters:
   title: Upcoming Litters and Prices
   litters:
     - title: MINIATURE AUSTRALIAN TYPE LABRADOODLES
-      description: We have just made available two new litters that will be ready to
-        go to their new homes at the end of March 2024. We have three boys and
-        two girls for they new homes on November 15th
-      date: March 2024
-    - title: AUSTRALIAN TYPE LABRADOODLES
-      description: Should be F1 or up, we offer very special puppies that will be
-        ready to go to their new homes at the end of March 2024. We have three
-        boys and two girls for they new homes on November 15th
-      date: April 2024
+      description: We have puppies available for reservation due a larger than
+        expected litter, these are miniature Australian Type Labradoodles. They
+        are from fully DNA tested lines, their father we bred ourselves and
+        comes from 4 generations of our lines. The litter is brown, black,
+        chocolate and silver merle. Ready for their new homes from 24th April
+      date: APRIL 2024
+    - title: MINIATURE / TOY AUSTRALIAN TYPE LABRADOODLES
+      description: We are hopefully due a litter of small miniature Australian type
+        labradoodles in April. The mum is bred from 4 generations of our lines,
+        we even had great grandmother. The father is the son of our toy poodle,
+        and is a small Labradoodle. Fully DNA tested lines and would be ready
+        for new homes in June. We expect black and brown puppies
+      date: JUNE 2024
 testimonials:
   title: What Our Families Say
   items:
