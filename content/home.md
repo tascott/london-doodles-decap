@@ -92,12 +92,18 @@ testimonials:
       author: Lisa Anderson
 aboutUs:
   title: A little bit about us
-  description: >
-    Here at London Doodles we believe good dogs are about as close as we can
-    come to knowing the spirit of God on earth. When you buy a dog from us, you
-    are not only getting a puppy but a life long journey into the life of a
-    Labradoodle and all the love that comes with it. We are always on hand to
-    help guide you through your journey.
+  description: >+
+    We breed our dogs with an aim and focus on sound temperament and healthy
+    genetics. Most dogs now serve the purpose of companionship, and we believe
+    dogs placed in non-working homes should be bred to be suitable for a home
+    environment. We focus on working towards a calm dog at home but enjoys
+    exercise and training. Each puppy and dog is different, so we try to choose
+    the right puppy for the right home. We have had great success over the years
+    with puppies becoming registered therapy dogs, medical assistance dogs,
+    school dogs (and even one nursery dog). Even without official recognition,
+    we have a large number of dogs that are placed in homes with adults or
+    children with additional needs including autism and other SEN requirements. 
+
 contact:
   title: Contact Us
 ---
