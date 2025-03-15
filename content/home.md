@@ -62,7 +62,7 @@ gallery:
     - image: /images/img_9759-min.jpg
       alt: Happy doodle
 upcomingLitters:
-  title: Upcoming Litters and Prices
+  title: Upcoming Litters
   litters:
     - title: MINIATURE AUSTRALIAN TYPE LABRADOODLES
       description: We have puppies available for reservation due a larger than
@@ -103,6 +103,8 @@ aboutUs:
     school dogs (and even one nursery dog). Even without official recognition,
     we have a large number of dogs that are placed in homes with adults or
     children with additional needs including autism and other SEN requirements. 
+
+
 
 contact:
   title: Contact Us
