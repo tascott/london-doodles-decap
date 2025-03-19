@@ -13,10 +13,9 @@ about:
         aspect in creating a stable family dog.
       image: /images/bg-banner.jpg
     - title: Our Experience
-      content: >
-        We have been working as a family on our lines for nearly 10 years, but
-        we are still working towards our goal, by adding new lines and opening
-        the gene pool to create stronger lines.
+      content: We have been working as a family on our lines for over 10 years, but we
+        are still working towards our goal, by adding new lines and opening the
+        gene pool to create stronger lines.
       image: /images/millie.jpg
     - title: Our Goal
       content: >
