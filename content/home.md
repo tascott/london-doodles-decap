@@ -52,7 +52,7 @@ gallery:
       alt: Chocolate doodle puppy
     - image: /images/litter1.jpg
       alt: Golden doodle playing
-    - image: /images/dog-sm-3969.jpg
+    - image: /images/0i6a9416.jpg
       alt: Doodle family
     - image: /images/dog-sm-8065.jpg
       alt: Puppy portrait
