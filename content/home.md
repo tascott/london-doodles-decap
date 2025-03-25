@@ -25,7 +25,9 @@ about:
 features:
   - title: Home Raised
     description: Our puppies are raised in the centre of our busy family home,
-      around our other dogs, our cat and my two young children.
+      around our other dogs, our cat and my two young children. We ask for you
+      to visit your puppy several times before they leave us to ensure a smooth
+      transition.
     icon: home
   - title: DNA Tested
     description: All of our dogs are DNA tested for a comprehensive list of
@@ -39,15 +41,21 @@ features:
       right home. Please do not be offended if we do not think you are suitable
       for one of our puppies.
     icon: family_restroom
-  - title: Health & Training
-    description: All puppies come with initial vaccinations and basic training.
+  - title: Health and Feeding
+    description: All puppies come with initial vaccinations, vet check and
+      microchip. We raised all of our dogs, puppies and our cat on raw food. I
+      am always on hand for advice about food.
     icon: medical_services
   - title: Extensive Puppy Pack
-    description: Puppies come with a comprehensive pack including food, toys, and
-      care instructions.
+    description: Puppies leave us with; follow on food, blanket, toys and treats.
+      All their paperwork including a sales contract stating their health
+      checks.
     icon: inventory_2
-  - title: Breeding time
-    description: We carefully time our breeding to ensure healthy puppies and mothers.
+  - title: Lifetime support
+    description: We are always available to answer any questions, for any time
+      during your dogs life. We love watching our puppies grow and the updates
+      are fantastic. We also welcome our dogs back to us at any point in their
+      life if you feel you can't keep your dog.
     icon: schedule
 gallery:
   title: Previous Litters
