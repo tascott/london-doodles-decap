@@ -118,5 +118,5 @@ aboutUs:
 
 
 contact:
-  title: Contact Us
+  title: "Contact Amy on 07584010292 "
 ---
