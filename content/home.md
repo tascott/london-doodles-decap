@@ -23,17 +23,21 @@ about:
         specific breeding, and offer loving family pets.
       image: /images/bonnie.jpg
 features:
-  - title: Deposit Required
-    description: Our puppies come with a full health guarantee and are vet checked
-      before going to their new homes.
+  - title: Home Raised
+    description: Our puppies are raised in the centre of our busy family home,
+      around our other dogs, our cat and my two young children.
     icon: home
   - title: DNA Tested
-    description: All our breeding dogs are DNA tested for genetic conditions common
-      to the breed.
+    description: All of our dogs are DNA tested for a comprehensive list of
+      conditions. We test for well over the minimum required for the breeds used
+      to make Australian Labradoodles. For our large labradoodles parents are
+      also hip and elbow scored.
     icon: biotech
-  - title: Raised around our family
-    description: Our puppies are raised in our home with our family, ensuring they
-      are well socialized.
+  - title: Puppy selection
+    description: It is our job to ensure our puppies are in forever homes, so as
+      part of that, it is essential to try and match the right puppy to the
+      right home. Please do not be offended if we do not think you are suitable
+      for one of our puppies.
     icon: family_restroom
   - title: Health & Training
     description: All puppies come with initial vaccinations and basic training.
