@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
 
-const Hero = ({ data }) => (
+export const Hero = ({ data }) => (
   <div className="hero">
     <div className="hero__image-container">
       <Image
@@ -102,6 +102,7 @@ const Features = ({ features }) => (
 const Gallery = ({ data }) => (
   <section className="gallery" id="gallery">
     <h2 className="gallery__title">{data.title}</h2>
+    <p className="gallery__description">{data.description}</p>
     <div className="gallery__grid">
       {data.images.map((image, index) => (
         <div key={index} className="gallery__item">
@@ -158,7 +159,7 @@ const Testimonials = ({ data }) => (
   </section>
 );
 
-const Contact = ({ data }) => (
+export const Contact = ({ data }) => (
   <section className="contact" id="contact">
     <div className="contact__container">
       <h2 className="contact__title">{data.aboutUs?.title}</h2>
@@ -211,11 +212,17 @@ const Contact = ({ data }) => (
   </section>
 );
 
-const Nav = () => {
+export const Nav = () => {
   const scrollToSection = (id) => {
-    const element = document.getElementById(id);
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' });
+    // Check if we're on the home page
+    if (window.location.pathname === '/') {
+      const element = document.getElementById(id);
+      if (element) {
+        element.scrollIntoView({ behavior: 'smooth' });
+      }
+    } else {
+      // If not on home page, navigate to home page with hash
+      window.location.href = `/#${id}`;
     }
   };
 
@@ -264,6 +271,9 @@ const Nav = () => {
             <button onClick={() => scrollToSection('litters')} className="nav__link">
               Upcoming Litters/Prices
             </button>
+            <a href="/available" className="nav__link">
+              Available Doodles
+            </a>
           </div>
         </div>
       </nav>
@@ -272,6 +282,21 @@ const Nav = () => {
 };
 
 export default function Home({ data }) {
+  useEffect(() => {
+    // Check for hash in URL and scroll to section
+    if (typeof window !== 'undefined') {
+      const hash = window.location.hash.replace('#', '');
+      if (hash) {
+        const element = document.getElementById(hash);
+        if (element) {
+          setTimeout(() => {
+            element.scrollIntoView({ behavior: 'smooth' });
+          }, 100);
+        }
+      }
+    }
+  }, []);
+
   return (
     <>
       <Nav />
