@@ -3,6 +3,7 @@ import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
+import Head from 'next/head';
 
 export const Hero = ({ data }) => (
   <div className="hero">
@@ -299,6 +300,9 @@ export default function Home({ data }) {
 
   return (
     <>
+      <Head>
+        <title>London Doodle Dogs | Family Raised Doodles</title>
+      </Head>
       <Nav />
       <main>
         <Hero data={data.hero} />

@@ -3,6 +3,7 @@ import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
+import Head from 'next/head';
 import { Nav, Hero, Contact } from './index';
 
 const AvailableGallery = ({ data }) => (
@@ -29,6 +30,9 @@ const AvailableGallery = ({ data }) => (
 export default function Available({ data }) {
   return (
     <>
+      <Head>
+        <title>Available Doodles | London Doodle Dogs</title>
+      </Head>
       <Nav />
       <main>
         <Hero data={data.hero} />
