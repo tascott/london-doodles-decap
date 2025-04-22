@@ -16,13 +16,13 @@ gallery:
       alt: "Black male puppy "
     - image: /images/blackfemale.jpeg
       alt: Black female puppy
-    - image: /images/placeholder-5.jpg
-      alt: Doodle puppy 5
-    - image: /images/placeholder-6.jpg
-      alt: Doodle puppy 6
-    - image: /images/placeholder-7.jpg
+    - image: /images/whatsapp-image-2025-04-22-at-20.51.00.jpeg
+      alt: Merle puppy
+    - image: /images/whatsapp-image-2025-04-22-at-20.51.01-1-.jpeg
+      alt: Puppy
+    - image: /images/whatsapp-image-2025-04-22-at-20.51.01-2-.jpeg
       alt: Doodle puppy 7
-    - image: /images/placeholder-8.jpg
+    - image: /images/whatsapp-image-2025-04-22-at-20.51.01.jpeg
       alt: Doodle puppy 8
 contact:
   title: Contact Us
