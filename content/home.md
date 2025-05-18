@@ -5,12 +5,10 @@ hero:
   image: /images/dogs.jpg
 about:
   panels:
-    - title: Our Home Breeding
-      content: >
-        Our puppies are home raised, born in our bedroom, then move downstairs
-        to the hub of the home. We like them to be fully immersed in a normal
-        home environment. The start of a puppy's life is a hugely important
-        aspect in creating a stable family dog.
+    - title: Home Breeding
+      content: All of our puppies are born in our bedroom and, as they grow, are moved
+        to the bustling centre of our home. We believe in fully immersing them
+        in a typical family environment from the very beginning.
       image: /images/bg-banner.jpg
     - title: Our Experience
       content: We have been working as a family on our lines for over 10 years, but we
@@ -18,16 +16,19 @@ about:
         gene pool to create stronger lines.
       image: /images/millie.jpg
     - title: Our Goal
-      content: >
-        Our aim is to achieve the type of Australian Labradoodle with our own
-        specific breeding, and offer loving family pets.
+      content: For over 12 years we have breeding our own lines of Australian type
+        Labradoodles. With a focus on temperament we have been breeding to
+        improve the health and genetics of our dogs
       image: /images/bonnie.jpg
 features:
   - title: Home Raised
-    description: Our puppies are raised in the centre of our busy family home,
-      around our other dogs, our cat and my two young children. We ask for you
-      to visit your puppy several times before they leave us to ensure a smooth
-      transition.
+    description: >-
+      The first weeks of a puppy’s life are crucial for shaping their future
+      temperament. Being surrounded by the everyday sights, sounds, and rhythms
+      of family life helps them develop into confident, well-adjusted dogs,
+      ready to settle seamlessly into their forever homes.
+
+      We never use kennels or outbuildings—our puppies are raised exactly where they belong: right alongside us, as part of the family along with our children, other dogs and cat.
     icon: home
   - title: DNA Tested
     description: All of our dogs are DNA tested for a comprehensive list of
