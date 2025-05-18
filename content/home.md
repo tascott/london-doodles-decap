@@ -30,17 +30,24 @@ features:
 
       We never use kennels or outbuildings—our puppies are raised exactly where they belong: right alongside us, as part of the family along with our children, other dogs and cat.
     icon: home
-  - title: DNA Tested
+  - title: Health Testing
     description: All of our dogs are DNA tested for a comprehensive list of
       conditions. We test for well over the minimum required for the breeds used
       to make Australian Labradoodles. For our large labradoodles parents are
-      also hip and elbow scored.
+      also hip and elbow scored. Puppies will all be seen by a vet before they
+      leave for a full health check, and prescribed prescription flea and worm
+      treatments as well. You will receive a sales contract highlighting the
+      tests and health checks, and a guarantee of health.
     icon: biotech
-  - title: Puppy selection
-    description: It is our job to ensure our puppies are in forever homes, so as
-      part of that, it is essential to try and match the right puppy to the
-      right home. Please do not be offended if we do not think you are suitable
-      for one of our puppies.
+  - title: Puppy Matching
+    description: >-
+      Our top priority is placing each puppy in a loving, forever home that
+      suits their individual needs and personality. Every puppy is unique, so we
+      take great care in matching the right puppy with the right home.
+
+      Some of our puppies go on to become therapy dogs, which requires specific temperaments and traits. In these cases, we match them with families who need those characteristics.
+
+      Please don’t take it personally if we feel one of our puppies may not be the right fit for your household. This is never a reflection on you, but a commitment to the long-term wellbeing of our dogs, and it may be that a later litter will suit you better.
     icon: family_restroom
   - title: Health and Feeding
     description: All puppies come with initial vaccinations, vet check and
