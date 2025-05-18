@@ -61,7 +61,7 @@ features:
       If you prefer to feed a different diet, we’re happy to discuss options with you and will do our best to accommodate your preferences before your puppy goes home.
     icon: medical_services
   - title: Puppy Pack
-    description: >-
+    description: >
       When your puppy leaves us, they’ll go with everything they need to settle
       in comfortably, including: a supply of their follow on food, a scent
       blanket, selection of their toys.
@@ -75,14 +75,17 @@ features:
       Vaccination record
 
       A detailed daily routine to help ease the transition into your home
-
-      Most importantly, you'll have our ongoing support for the lifetime of your dog. 
     icon: inventory_2
   - title: Lifetime support
-    description: We are always available to answer any questions, for any time
-      during your dogs life. We love watching our puppies grow and the updates
-      are fantastic. We also welcome our dogs back to us at any point in their
-      life if you feel you can't keep your dog.
+    description: >-
+      Our commitment to you and your puppy doesn’t end when they leave our home.
+      We’re here for you throughout your dog’s entire life—whether you need
+      advice on training, grooming, nutrition, or simply have a question along
+      the way..
+
+      We absolutely love receiving updates and watching our puppies grow and thrive with their new families—it’s one of the most rewarding parts of what we do.
+
+      Should your circumstances ever change, we will always welcome one of our dogs back into our care—no matter their age. All of our puppies’ microchips are dual registered to us as an added safeguard, ensuring that if any of them ever end up in rescue or picked up by a dog warden we can help to reunite.
     icon: schedule
 gallery:
   title: Previous Litters
