@@ -10,15 +10,21 @@ about:
         to the bustling centre of our home. We believe in fully immersing them
         in a typical family environment from the very beginning.
       image: /images/bg-banner.jpg
-    - title: Our Experience
-      content: We have been working as a family on our lines for over 10 years, but we
-        are still working towards our goal, by adding new lines and opening the
-        gene pool to create stronger lines.
+    - title: The difference
+      content: Our puppies are lucky to enjoy plenty of space to play and explore. As
+        a family, we run a training and walking facility just a short distance
+        from our home, set on 8.5 acres of beautiful natural fields. Once the
+        puppies are old enough, they join us there daily for fresh air,
+        stimulation, and supervised adventures. This early exposure to the
+        outdoors and varied environments helps build confident, well-rounded
+        dogs who are ready to take on the world with their new families.
       image: /images/millie.jpg
     - title: Our Goal
-      content: For over 12 years we have breeding our own lines of Australian type
-        Labradoodles. With a focus on temperament we have been breeding to
-        improve the health and genetics of our dogs
+      content: For over 12 years we have been breeding our own lines of Australian
+        type Labradoodles. With a focus on temperament we have been breeding to
+        improve the health and genetics of our dogs. We are still working
+        towards our goal, by adding new lines and opening the gene pool to
+        create stronger lines.
       image: /images/bonnie.jpg
 features:
   - title: Home Raised
