@@ -60,10 +60,23 @@ features:
 
       If you prefer to feed a different diet, we’re happy to discuss options with you and will do our best to accommodate your preferences before your puppy goes home.
     icon: medical_services
-  - title: Extensive Puppy Pack
-    description: Puppies leave us with; follow on food, blanket, toys and treats.
-      All their paperwork including a sales contract stating their health
-      checks.
+  - title: Puppy Pack
+    description: >-
+      When your puppy leaves us, they’ll go with everything they need to settle
+      in comfortably, including: a supply of their follow on food, a scent
+      blanket, selection of their toys.
+
+      All essential paperwork, including:
+
+      Sales contract
+
+      Health check documentation
+
+      Vaccination record
+
+      A detailed daily routine to help ease the transition into your home
+
+      Most importantly, you'll have our ongoing support for the lifetime of your dog. 
     icon: inventory_2
   - title: Lifetime support
     description: We are always available to answer any questions, for any time
