@@ -139,20 +139,21 @@ testimonials:
       author: Lisa Anderson
 aboutUs:
   title: A little bit about us
-  description: >+
-    We breed our dogs with an aim and focus on sound temperament and healthy
-    genetics. Most dogs now serve the purpose of companionship, and we believe
-    dogs placed in non-working homes should be bred to be suitable for a home
-    environment. We focus on working towards a calm dog at home but enjoys
-    exercise and training. Each puppy and dog is different, so we try to choose
-    the right puppy for the right home. We have had great success over the years
-    with puppies becoming registered therapy dogs, medical assistance dogs,
-    school dogs (and even one nursery dog). Even without official recognition,
-    we have a large number of dogs that are placed in homes with adults or
-    children with additional needs including autism and other SEN requirements. 
+  description: >
+    We’re Anne and Amy, a mother-and-daughter team with over 12 years of
+    experience in dog breeding. Dogs have always been a central part of our
+    family life, and our journey began with our beloved purebred Labradors.
+    Sadly, we lost several to cancer—a common outcome linked to the limited gene
+    pool in many purebred dogs.
 
 
+    This experience led us to explore breeds with greater genetic diversity and more robust health. That’s when we discovered the Australian Labradoodle—and fell in love with the concept. We’ve built our breeding program from the ground up, using only our own carefully developed lines. Our dogs’ pedigrees include a mix of American and English Cocker Spaniel, Labrador, Toy, Miniature, and Standard Poodle—with some lines also incorporating Golden Retriever. This thoughtful blend supports both health and temperament, offering a wide gene pool and consistent, well-balanced personalities.
 
+
+    We breed with intention. Our goal is to raise dogs with sound temperaments and strong, healthy genetics—ideally suited for modern family life. While many of our puppies go on to be beloved companions, several have also become registered therapy dogs, medical assistance dogs, school support animals—and even one adored nursery dog.
+
+
+    Many of our dogs are placed with families who have children or adults with additional needs, including autism and other SEN requirements. Whether they carry a formal title or not, these dogs make a real difference in people’s lives—and that’s exactly what we’re here for.
 contact:
   title: "Contact Amy on 07584010292 "
 ---
