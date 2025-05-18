@@ -19,7 +19,19 @@ gallery:
 
 
     These puppies are showing calm, confident temperaments and are already demonstrating wonderful potential for future therapy or support roles.
-  images: []
+  images:
+    - image: /images/whatsapp-image-2025-05-18-at-09.15.53.jpeg
+      alt: "2"
+    - image: /images/whatsapp-image-2025-05-18-at-09.15.45.jpeg
+      alt: brown
+    - image: /images/whatsapp-image-2025-05-17-at-08.05.40.jpeg
+      alt: "2"
+    - image: /images/whatsapp-image-2025-05-17-at-08.05.39.jpeg
+      alt: black
+    - image: /images/whatsapp-image-2025-05-17-at-08.05.36.jpeg
+      alt: brown
+    - image: /images/whatsapp-image-2025-05-17-at-08.05.46.jpeg
+      alt: Black
 contact:
   title: Contact Us
 aboutUs:
