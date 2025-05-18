@@ -1,29 +1,25 @@
 ---
 hero:
-  title: Available Doodles
-  subtitle: Find Your Perfect Companion
+  title: Available Puppies
+  subtitle: This page is kept up to date with any puppies available or future litters
   image: /images/dogs.jpg
 gallery:
-  title: Currently Available
-  description: Meet our adorable doodles currently looking for their forever
-    homes. Each puppy has been lovingly raised in our family environment.
-  images:
-    - image: /images/silvermerlemale.jpeg
-      alt: Silver Merle Male
-    - image: /images/femalebrownpuppy.jpeg
-      alt: Female brown puppy
-    - image: /images/blackmale.jpeg
-      alt: "Black male puppy "
-    - image: /images/blackfemale.jpeg
-      alt: Black female puppy
-    - image: /images/whatsapp-image-2025-04-22-at-20.51.00.jpeg
-      alt: Merle puppy
-    - image: /images/whatsapp-image-2025-04-22-at-20.51.01-1-.jpeg
-      alt: Puppy
-    - image: /images/whatsapp-image-2025-04-22-at-20.51.01-2-.jpeg
-      alt: Doodle puppy 7
-    - image: /images/whatsapp-image-2025-04-22-at-20.51.01.jpeg
-      alt: Doodle puppy 8
+  title: "Molly's pups ready for their new homes 31st May "
+  description: >-
+    Molly’s Puppies – Thriving and Ready for Visits
+
+
+    Molly has done a wonderful job raising her second and final litter, and we couldn’t be prouder of how beautifully her puppies are developing. Now at 6 weeks old, they’re thriving—and we’re excited to begin welcoming visits from prospective families.
+
+
+    Thanks to the lovely weather, they’ve made great progress with toilet training. They’re already clean overnight and wait patiently to be let outside in the morning.
+
+
+    They’ve been enjoying daily adventures in our fields, exploring long grass, bushes, and trees—always with their mum close by. Being raised alongside our toddler and newborn means they’re well accustomed to a busy household and completely unfazed by noise or activity.
+
+
+    These puppies are showing calm, confident temperaments and are already demonstrating wonderful potential for future therapy or support roles.
+  images: []
 contact:
   title: Contact Us
 aboutUs:
