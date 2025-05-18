@@ -49,10 +49,16 @@ features:
 
       Please don’t take it personally if we feel one of our puppies may not be the right fit for your household. This is never a reflection on you, but a commitment to the long-term wellbeing of our dogs, and it may be that a later litter will suit you better.
     icon: family_restroom
-  - title: Health and Feeding
-    description: All puppies come with initial vaccinations, vet check and
-      microchip. We raised all of our dogs, puppies and our cat on raw food. I
-      am always on hand for advice about food.
+  - title: Feeding
+    description: >-
+      We naturally wean our puppies from their mother’s milk for a stress free
+      transition for both mum and pups. Their first introduction to solid food
+      is with finely minced raw dog food, gradually moving to chunkier blends
+      similar to what our adult dogs enjoy.
+
+      We believe in feeding a natural, species-appropriate diet and use only age-appropriate, natural treats to support sensory development. Chewing on larger, safe chews not only satisfies their natural instincts but also helps them relax and self-soothe.
+
+      If you prefer to feed a different diet, we’re happy to discuss options with you and will do our best to accommodate your preferences before your puppy goes home.
     icon: medical_services
   - title: Extensive Puppy Pack
     description: Puppies leave us with; follow on food, blanket, toys and treats.
