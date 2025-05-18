@@ -112,12 +112,12 @@ upcomingLitters:
   title: Upcoming Litters
   litters:
     - title: MINIATURE AUSTRALIAN TYPE LABRADOODLES
-      description: We have puppies available for reservation due to a larger than
-        expected litter, these are miniature Australian Type Labradoodles. They
-        are from fully DNA tested lines, their father we bred ourselves and
-        comes from 4 generations of our lines. The litter is brown, black,
-        chocolate, and silver merle. Ready for their new homes from 24th April
-      date: APRIL 2024
+      description: >-
+        £3000
+
+
+        Molly has had her second and final litter of Australian Type labradoodles, she has 4 lovely puppies, 2 boys and 2 girls. These are miniature multigeneration puppies, with beautiful non shedding soft coats. Please see more information on available puppies .
+      date: Ready 31st May
     - title: MINIATURE / TOY AUSTRALIAN TYPE LABRADOODLES
       description: Molly is due a litter of small miniature Australian type
         labradoodles in April. Their mum is bred from 4 generations of our
