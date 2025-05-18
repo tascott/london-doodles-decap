@@ -117,14 +117,14 @@ upcomingLitters:
 
 
         Molly has had her second and final litter of Australian Type labradoodles, she has 4 lovely puppies, 2 boys and 2 girls. These are miniature multigeneration puppies, with beautiful non shedding soft coats. Please see more information on available puppies .
-      date: Ready 31st May
-    - title: MINIATURE / TOY AUSTRALIAN TYPE LABRADOODLES
-      description: Molly is due a litter of small miniature Australian type
-        labradoodles in April. Their mum is bred from 4 generations of our
-        lines, we even have great grandmother. The father is the son of our toy
-        poodle, and is a small Labradoodle. Fully DNA tested lines and would be
-        ready for new homes in June. We expect black and brown puppies
-      date: JUNE 2024
+      date: READY 31st MAY
+    - title: Large Miniature - Medium Australian Labradoodles
+      description: >-
+        £3000 - £3400
+
+
+        Onya will be having a litter of puppies hopefully due at the end of July, therefore ready for their home in September, we expect, black, brown and merle puppies. Onya has proven herself to be an amazing dog, calm around children and reactive dogs. These puppies will be large miniature to medium sized dogs, with non shedding coats.
+      date: DUE JULY 2024
 testimonials:
   title: What Our Families Say
   items:
