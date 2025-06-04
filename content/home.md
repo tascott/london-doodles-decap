@@ -113,11 +113,11 @@ upcomingLitters:
   litters:
     - title: MINIATURE AUSTRALIAN TYPE LABRADOODLES
       description: >-
-        £3000
+        £2000 - £2500
 
 
-        Molly has had her second and final litter of Australian Type labradoodles, she has 4 lovely puppies, 2 boys and 2 girls. These are miniature multigeneration puppies, with beautiful non shedding soft coats. Please see more information on available puppies .
-      date: READY 31st MAY
+        Molly has had her second and final litter of Australian Type labradoodles, she has 4 lovely puppies, 2 boys and 2 girls. These are miniature multigeneration puppies, with beautiful non shedding soft coats. Please see more information on available puppies. We have 1 girl and 2 boys available
+      date: READY NOW
     - title: Large Miniature - Medium Australian Labradoodles
       description: >-
         £3000 - £3400
