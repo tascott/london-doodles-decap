@@ -120,7 +120,7 @@ upcomingLitters:
       date: READY NOW
     - title: Large Miniature - Medium Australian Labradoodles
       description: >-
-        £3000 - £3400
+        £2500 - £3000
 
 
         Onya will be having a litter of puppies hopefully due at the end of July, therefore ready for their home in September, we expect, black, brown and merle puppies. Onya has proven herself to be an amazing dog, calm around children and reactive dogs. These puppies will be large miniature to medium sized dogs, with non shedding coats.
