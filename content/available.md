@@ -9,7 +9,7 @@ gallery:
     Molly’s Puppies – Thriving and Ready for Visits
 
 
-    Molly has done a wonderful job raising her second and final litter, and we couldn’t be prouder of how beautifully her puppies are developing. Now at 6 weeks old, they’re thriving—and we’re excited to begin welcoming visits from prospective families.
+    Molly has done a wonderful job raising her second and final litter, and we couldn’t be prouder of how beautifully her puppies are developing. Now at 8  weeks old, they’re thriving—and they are ready to be with their new families.
 
 
     Thanks to the lovely weather, they’ve made great progress with toilet training. They’re already clean overnight and wait patiently to be let outside in the morning.
@@ -19,6 +19,12 @@ gallery:
 
 
     These puppies are showing calm, confident temperaments and are already demonstrating wonderful potential for future therapy or support roles.
+
+
+    The black male puppy and black female are showing very strong potential as placing in therapy homes. With naturally calm behaviours they are extremely gentle when playing with my 5 month old baby. They travel well in the car, and are very resilient around dogs they meet at my private dog walking centre.
+
+
+    The brown boy is the largest in the litter and so much fun, he is a happy bouncy clown and very confident in all situations.
   images:
     - image: /images/whatsapp-image-2025-05-18-at-09.15.53.jpeg
       alt: "2"
