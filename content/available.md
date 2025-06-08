@@ -4,7 +4,7 @@ hero:
   subtitle: This page is kept up to date with any puppies available or future litters
   image: /images/dogs.jpg
 gallery:
-  title: "Molly's pups ready for their new homes 31st May "
+  title: Only 2 puppies available
   description: >-
     Molly’s Puppies – Thriving and Ready for Visits
 
@@ -21,23 +21,17 @@ gallery:
     These puppies are showing calm, confident temperaments and are already demonstrating wonderful potential for future therapy or support roles.
 
 
-    The black male puppy and black female are showing very strong potential as placing in therapy homes. With naturally calm behaviours they are extremely gentle when playing with my 5 month old baby. They travel well in the car, and are very resilient around dogs they meet at my private dog walking centre.
+    The black female puppy is showing very strong potential as placing in a therapy home. With naturally calm behaviours she is extremely gentle when playing with my 5 month old baby. 
 
 
-    The brown boy is the largest in the litter and so much fun, he is a happy bouncy clown and very confident in all situations.
+    The brown boy is the largest in the litter and so much fun, he is a happy bouncy clown and very confident in all situations. They travel well in the car, and are very resilient around dogs they meet at my private dog walking centre.
   images:
-    - image: /images/whatsapp-image-2025-05-18-at-09.15.53.jpeg
-      alt: "2"
-    - image: /images/whatsapp-image-2025-05-18-at-09.15.45.jpeg
-      alt: brown
+    - image: /images/whatsapp-image-2025-06-02-at-21.56.20-3-.jpeg
+      alt: pup
+    - image: /images/whatsapp-image-2025-06-02-at-21.56.21-1-.jpeg
+      alt: pup
     - image: /images/whatsapp-image-2025-05-17-at-08.05.40.jpeg
-      alt: "2"
-    - image: /images/whatsapp-image-2025-05-17-at-08.05.39.jpeg
-      alt: black
-    - image: /images/whatsapp-image-2025-05-17-at-08.05.36.jpeg
-      alt: brown
-    - image: /images/whatsapp-image-2025-05-17-at-08.05.46.jpeg
-      alt: Black
+      alt: pup
 contact:
   title: Contact Us
 aboutUs:
