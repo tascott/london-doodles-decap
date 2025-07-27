@@ -4,8 +4,13 @@ hero:
   subtitle: This page is kept up to date with any puppies available or future litters
   image: /images/dogs.jpg
 gallery:
-  title: No available puppies currently
-  description: Contact us for future litters
+  title: No puppies currently available
+  description: >-
+    We will be due a litter of miniature to medium size in August, please get in
+    contact for more information 
+
+
+    All puppies £3000
   images: []
 contact:
   title: Contact Us
