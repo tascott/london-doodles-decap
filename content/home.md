@@ -111,19 +111,20 @@ gallery:
 upcomingLitters:
   title: Upcoming Litters
   litters:
-    - title: MINIATURE AUSTRALIAN TYPE LABRADOODLES
+    - title: MINI / MEDIUM DOUBLE DOODLES
       description: >-
-        £2000 - £2500
+        £3000
+
+        Goldie is due her first litter of double doodles, we are so excited to welcome these puppies. Goldie is extensively tested inlcuding elbow scored (0/0) and hips (4/4).
 
 
-        Molly has had her second and final litter of Australian Type labradoodles, she has 4 lovely puppies, 2 boys and 2 girls. These are miniature multigeneration puppies, with beautiful non shedding soft coats. Please see more information on available puppies. We have 1 girl and 2 boys available
-      date: READY NOW
-    - title: Large Miniature - Medium Australian Labradoodles
-      description: >-
-        £2500 - £3000
+        Dad is toy sized so there will be a variation in sizes in the litter.
+      date: Due August 2025
+    - title: "Large Miniature Australian Labradoodles "
+      description: |-
+        £3000 All Sold
 
-
-        Onya will be having a litter of puppies hopefully due at the end of July, therefore ready for their home in September, we expect, black, brown and merle puppies. Onya has proven herself to be an amazing dog, calm around children and reactive dogs. These puppies will be large miniature to medium sized dogs, with non shedding coats.
+        Onya has had her second litter of Australian Type Labradoodles
       date: DUE JULY 2024
 testimonials:
   title: What Our Families Say
