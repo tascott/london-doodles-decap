@@ -6,7 +6,7 @@ hero:
 gallery:
   title: Small Miniature Labradoodles
   description: >-
-    We have 3 red/apricot boys and one brown girl available for their new homes.
+    We have 3 red/apricot boys and one brown girl looking for their new homes.
     They will be ready for their homes from the 15th September. They are
     excelling at toilet training, and often wait in the morning for me to let
     them into the garden. Raised on raw and butternut box they are eating well
