@@ -1,7 +1,7 @@
 ---
 hero:
   title: London Doodles
-  subtitle: FAMILY HOME BREEDERS IN NORTH LONDON
+  subtitle: FAMILY HOME BREEDERS LONDON / HERTFORDSHIRE BORDE
   image: /images/dogs.jpg
 about:
   panels:
@@ -115,17 +115,16 @@ upcomingLitters:
       description: >-
         £3000
 
-        Goldie is due her first litter of double doodles, we are so excited to welcome these puppies. Goldie is extensively tested inlcuding elbow scored (0/0) and hips (4/4).
+        Goldie is extensively tested inlcuding elbow scored (0/0) and hips (4/4).
 
+        We will hopefully have a litter in spring next year.
+      date: Breeding TBC
+    - title: Small Miniature Labradoodles
+      description: >-
+        £3000
 
-        Dad is toy sized so there will be a variation in sizes in the litter.
-      date: Due August 2025
-    - title: "Large Miniature Australian Labradoodles "
-      description: |-
-        £3000 All Sold
-
-        Onya has had her second litter of Australian Type Labradoodles
-      date: DUE JULY 2024
+        Mabel has a lovely litter of red / apricot puppies. She is a fantastic mum and she has had her own mum here to show her the ropes!
+      date: Ready for their new home Mid September
 testimonials:
   title: What Our Families Say
   items:
