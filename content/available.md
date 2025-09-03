@@ -17,7 +17,15 @@ gallery:
 
 
     Socialisation will start once they have their first vaccinations, but they are already very used to other dogs, including our very big mastiff. 
-  images: []
+  images:
+    - image: /images/whatsapp-image-2025-09-03-at-15.21.11.jpeg
+      alt: pup
+    - image: /images/whatsapp-image-2025-09-03-at-15.21.11-3-.jpeg
+      alt: pup
+    - image: /images/whatsapp-image-2025-09-03-at-15.21.11-1-.jpeg
+      alt: pup
+    - image: /images/whatsapp-image-2025-09-03-at-15.21.10.jpeg
+      alt: pup
 contact:
   title: Contact Us
 aboutUs:
