@@ -4,13 +4,19 @@ hero:
   subtitle: This page is kept up to date with any puppies available or future litters
   image: /images/dogs.jpg
 gallery:
-  title: No puppies currently available
+  title: Small Miniature Labradoodles
   description: >-
-    We will be due a litter of miniature to medium size in August, please get in
-    contact for more information 
+    We have 3 red/apricot boys and one brown girl available for their new homes.
+    They will be ready for their homes from the 15th September. They are
+    excelling at toilet training, and often wait in the morning for me to let
+    them into the garden. Raised on raw and butternut box they are eating well
+    and full of beans.
 
 
-    All puppies £3000
+    They have had the unique experience of being raised around my puppy-obsessed 8-month-old daughter, who will do anything to break into the pen to be with them. So they spend a lot of time in the kitchen being hugged by her. They are very well desensitised to the usual hustle of a very busy family home and are not phased at all by the TV, hoover, or a toddlers meltdown. They are great at being washed, brushed, blow dried and having trims and nail clips. 
+
+
+    Socialisation will start once they have their first vaccinations, but they are already very used to other dogs, including our very big mastiff. 
   images: []
 contact:
   title: Contact Us
