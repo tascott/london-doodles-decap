@@ -6,17 +6,16 @@ hero:
 gallery:
   title: Small Miniature Labradoodles
   description: >-
-    We have 3 red/apricot boys and one brown girl looking for their new homes.
-    They will be ready for their homes from the 15th September. They are
-    excelling at toilet training, and often wait in the morning for me to let
-    them into the garden. Raised on raw and butternut box they are eating well
-    and full of beans.
+    Due to a massive time waster, one puppy is suddenly looking for his forever
+    home. He is a lovely apricot toy / mini labradoodle. With a lovely soft non
+    shedding coat, he is excelling at toilet training, and waits in the morning
+    for me to let him into the garden. Raised on raw and butternut box they are
+    eating well and full of beans. 
 
 
-    They have had the unique experience of being raised around my puppy-obsessed 8-month-old daughter, who will do anything to break into the pen to be with them. So they spend a lot of time in the kitchen being hugged by her. They are very well desensitised to the usual hustle of a very busy family home and are not phased at all by the TV, hoover, or a toddlers meltdown. They are great at being washed, brushed, blow dried and having trims and nail clips. 
+    They have had the unique experience of being raised around my puppy-obsessed 8-month-old daughter, who will do anything to break into the pen to be with them. So they spend a lot of time in the kitchen being hugged by her. They are very well desensitised to the usual hustle of a very busy family home and are not phased at all by the TV, hoover, or a toddler's meltdown. They are great at being washed, brushed, blow-dried, and having trims and nail clips. 
 
-
-    Socialisation will start once they have their first vaccinations, but they are already very used to other dogs, including our very big mastiff. 
+    He has had his first vaccination and some socialisation, but they are already very used to other dogs, including our very big mastiff. He is ready for his new sofa to lie on!
   images:
     - image: /images/whatsapp-image-2025-09-03-at-15.21.11.jpeg
       alt: pup
