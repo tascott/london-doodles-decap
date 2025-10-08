@@ -1,10 +1,10 @@
 ---
 hero:
   title: Available Puppies
-  subtitle: We have no puppies at the moment, but a close breeder friend has YORKIEPOOS
+  subtitle: We have non puppies but can recommend a close breeder friend
   image: /images/dogs.jpg
 gallery:
-  title: Small Miniature Labradoodles
+  title: Toy Multigeneration Yorkiepoo Puppoes Due October
   description: >-
     A close friend of ours is due a small litter of toy yorkiepoos in October,
     ready for their new homes mid December. These are from fully DNA tested
