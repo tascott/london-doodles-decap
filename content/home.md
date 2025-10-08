@@ -111,20 +111,12 @@ gallery:
 upcomingLitters:
   title: Upcoming Litters
   litters:
-    - title: MINI / MEDIUM DOUBLE DOODLES
-      description: >-
-        £3000
-
-        Goldie is extensively tested inlcuding elbow scored (0/0) and hips (4/4).
-
-        We will hopefully have a litter in spring next year.
-      date: Breeding TBC
-    - title: Small Miniature Labradoodles
-      description: >-
-        £3000
-
-        Mabel has a lovely litter of red / apricot puppies. She is a fantastic mum and she has had her own mum here to show her the ropes!
-      date: Ready for their new home Mid September
+    - title: Toy Yorkiepoos
+      description: Please head over to the available page for some more information
+      date: Due October 2025
+    - title: Miniature Labradoodles
+      description: If you would like to join our waiting lists please contact me
+      date: "2026"
 testimonials:
   title: What Our Families Say
   items:
