@@ -1,28 +1,26 @@
 ---
 hero:
   title: Available Puppies
-  subtitle: We have non puppies but can recommend a close breeder friend
+  subtitle: Due any day now we will have miniature / toy chocolate labradoodles
   image: /images/dogs.jpg
 gallery:
-  title: Toy Multigeneration Yorkiepoo Puppoes Due October
+  title: Small Miniature Labradoodles Due Soon
   description: >-
-    A close friend of ours is due a small litter of toy yorkiepoos in October,
-    ready for their new homes mid December. These are from fully DNA tested
-    dogs, we bred their grandma, and their great grandma! We know the lines very
-    well and the breeder.
+    We are imminently due a little of small miniature / toy sized labradoodle
+    puppies. These are not Australian Labradoodles.
 
 
-    They will be raised around children and follow a similar early neurological stimulation programme as ours. These are toy-sized puppies, so expect around 2 to 3kg when they are fully grown. With beautiful non shedding coats. 
+    Mum is a beuatiful deep brown and dad is our lovely toy poodle Dylan. Puppies will have lovely soft, non shedding coats. This is going to be a very small litter so early interest is essential. Puppies will be read for their new homes in January. All puppies will be chocolate in colour.
 
 
-    Photos of previous litter are below. Puppies will leave with a full puppy pack of food, insurance, vet checks, toys, blankets. Puppies are £3000
-  images:
-    - image: /images/whatsapp-image-2025-10-01-at-10.03.45.jpeg
-      alt: YP
-    - image: /images/whatsapp-image-2025-10-01-at-10.03.46-1-.jpeg
-      alt: YP
-    - image: /images/whatsapp-image-2025-10-01-at-10.03.46.jpeg
-      alt: YP
+    Fully DNA tested for an extensive list of over 150 conditions.
+
+
+    Raied in our family home, with other dogs, children, our cat and the daily business of our life. Once old enough they will start coming with us to our private fields to work on basic training and socialisation.
+
+
+    Raised on either raw or butternut (new owners preference) they will be have the best start in life. We use food as part of their early training and mental engagement.
+  images: []
 contact:
   title: Contact Us
 aboutUs:
