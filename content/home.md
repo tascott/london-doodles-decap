@@ -111,9 +111,15 @@ gallery:
 upcomingLitters:
   title: Upcoming Litters
   litters:
-    - title: Toy Yorkiepoos
-      description: Please head over to the available page for some more information
-      date: Due October 2025
+    - title: Small Miniature Labradoodles
+      description: >-
+        Any day now (mid November) we are due a beautiful litter of small
+        miniature labradoodles. All puppies will be chocolate. Ready for their
+        new homes in January.
+
+
+        All Puppies £3000
+      date: Due November 2025
     - title: Miniature Labradoodles
       description: If you would like to join our waiting lists please contact me
       date: "2026"
