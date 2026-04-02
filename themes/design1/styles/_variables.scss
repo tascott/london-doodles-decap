@@ -1,0 +1,58 @@
+// Restrained editorial palette — warm paper, one terracotta accent, brass detail
+// (Inspired by luxury editorial + premium pet brand restraint: photography-led, minimal colour bands)
+$bg-page: #f3efe8;
+$bg-alt: #ebe5dc;
+$bg-subtle: #e5dfd4;
+$bg-card: #ffffff;
+
+$ink: #2a2624;
+$ink-muted: #6b645c;
+$accent: #9d5a4a;
+$accent-hover: #7d483c;
+$brass: #a38652;
+$evergreen: #3d4f42;
+$accent-ghost: rgb(157 90 74 / 0.09);
+$accent-soft: rgb(157 90 74 / 0.15);
+
+$border: rgb(58 52 48 / 0.08);
+$border-strong: rgb(58 52 48 / 0.12);
+
+$white: #ffffff;
+$black: #000000;
+
+// Legacy / section aliases — same family, no rainbow
+$bg-blush: $accent-ghost;
+$bg-mint: $bg-alt;
+$bg-butter: $bg-page;
+$bg-lilac: $bg-alt;
+$bg-sky: $bg-page;
+
+$primary-color: $accent;
+$secondary-color: $evergreen;
+$text-color: $ink;
+$light-gray: $bg-alt;
+$nav-bg: $white;
+$accent-sage: $evergreen;
+
+$font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+$font-body: 'Source Sans 3', system-ui, sans-serif;
+$font-mono: 'Source Sans 3', system-ui, sans-serif;
+
+$spacing-sm: 1rem;
+$spacing-md: 2rem;
+$spacing-lg: 4rem;
+$spacing-xl: 6rem;
+
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+
+$container-max: 1120px;
+$container-wide: 1240px;
+
+$radius-sm: 6px;
+$radius-md: 12px;
+$radius-lg: 0;
+$shadow-soft: 0 2px 24px rgb(42 38 36 / 0.06);
+$shadow-card: 0 20px 50px rgb(42 38 36 / 0.08);
+$shadow-lift: 0 32px 64px rgb(42 38 36 / 0.1);
+$grid-line: transparent;

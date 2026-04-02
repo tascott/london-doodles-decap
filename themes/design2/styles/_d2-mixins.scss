@@ -1,0 +1,17 @@
+@use 'd2-variables' as *;
+
+@mixin d2-container {
+  width: 100%;
+  max-width: $d2-max;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: clamp(1.1rem, 4vw, 2rem);
+  padding-right: clamp(1.1rem, 4vw, 2rem);
+}
+
+@mixin d2-copper-line {
+  height: 2px;
+  width: 4rem;
+  background: linear-gradient(90deg, $d2-copper, $d2-copper-light);
+  border-radius: 2px;
+}

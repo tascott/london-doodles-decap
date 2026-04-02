@@ -1,11 +1,9 @@
 import matter from 'gray-matter';
 import fs from 'fs';
 import path from 'path';
-import HomePage from '../themes/default/HomePage';
+import Design2Home from '../themes/design2/HomePage';
 
-export { Hero, Contact, Nav } from '../themes/default/HomePage';
-
-export default HomePage;
+export default Design2Home;
 
 export async function getStaticProps() {
   const filePath = path.join(process.cwd(), 'content/home.md');

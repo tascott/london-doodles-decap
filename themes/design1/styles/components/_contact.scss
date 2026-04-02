@@ -1,0 +1,146 @@
+@use '../index' as *;
+
+.contact {
+  padding: clamp(3.5rem, 8vw, 5.5rem) 0 calc(#{$spacing-xl} + 2rem);
+  background: $bg-alt;
+  border-top: 1px solid $border;
+
+  &__container {
+    @include container;
+    max-width: 560px;
+    text-align: center;
+  }
+
+  &__title {
+    font-family: $font-display;
+    font-size: clamp(2rem, 4vw, 2.65rem);
+    font-weight: 600;
+    font-variation-settings: 'SOFT' 100, 'WONK' 0;
+    margin-bottom: 1.15rem;
+    color: $ink;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+  }
+
+  &__description {
+    color: $ink-muted;
+    line-height: 1.75;
+    margin-bottom: $spacing-lg;
+    font-size: 1.05rem;
+    text-align: left;
+  }
+
+  &__form-title {
+    font-family: $font-body;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: $brass;
+    margin-bottom: 0.65rem;
+  }
+
+  &__whatsapp-wrap {
+    margin-bottom: 1.35rem;
+  }
+
+  &__whatsapp {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.45rem;
+    padding: 0.65rem 1.25rem;
+    font-family: $font-body;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    color: $white;
+    background: #25d366;
+    border-radius: $radius-sm;
+    box-shadow: 0 4px 14px rgb(37 211 102 / 0.35);
+    transition: filter 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      filter: brightness(1.06);
+      transform: translateY(-1px);
+    }
+
+    &:active {
+      transform: translateY(0);
+    }
+  }
+
+  &__form {
+    text-align: left;
+    background: $bg-card;
+    padding: 2rem 1.85rem;
+    border-radius: $radius-md;
+    border: 1px solid $border;
+    box-shadow: $shadow-card;
+  }
+
+  &__form-group {
+    margin-bottom: 1rem;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 0.8rem 1rem;
+    border: 1px solid $border-strong;
+    border-radius: $radius-sm;
+    font-size: 1rem;
+    font-family: $font-body;
+    background: $bg-page;
+    color: $ink;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+
+    &::placeholder {
+      color: rgb(107 100 92 / 0.5);
+    }
+
+    &:focus {
+      outline: none;
+      border-color: $evergreen;
+      background: $white;
+      box-shadow: 0 0 0 3px rgb(61 79 66 / 0.12);
+    }
+  }
+
+  &__textarea {
+    min-height: 140px;
+    resize: vertical;
+  }
+
+  &__submit {
+    width: 100%;
+    padding: 0.95rem $spacing-md;
+    background: $accent;
+    color: $white;
+    border: none;
+    border-radius: $radius-sm;
+    font-size: 0.9rem;
+    font-family: $font-body;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      background: $accent-hover;
+    }
+
+    &:active {
+      transform: scale(0.99);
+    }
+  }
+
+  @media (max-width: $breakpoint-md) {
+    padding: $spacing-lg $spacing-sm calc(#{$spacing-lg} + 1.5rem);
+
+    &__form {
+      padding: 1.5rem 1.25rem;
+    }
+  }
+}

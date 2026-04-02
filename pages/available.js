@@ -4,7 +4,7 @@ import fs from 'fs';
 import path from 'path';
 import Image from 'next/image';
 import Head from 'next/head';
-import { Nav, Hero, Contact } from './index';
+import { Nav, Hero, Contact } from '../themes/default/HomePage';
 
 const AvailableGallery = ({ data }) => (
   <section className="gallery" id="gallery">

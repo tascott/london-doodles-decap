@@ -1,0 +1,210 @@
+@use '../index' as *;
+
+.about {
+  padding: clamp(3.5rem, 8vw, 5.5rem) 0;
+  background: $bg-page;
+  overflow: hidden;
+
+  &__head {
+    @include container;
+    text-align: center;
+    margin-bottom: clamp(2rem, 5vw, 3rem);
+    max-width: 38rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__kicker {
+    font-family: $font-body;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: $brass;
+    margin-bottom: 0.75rem;
+  }
+
+  &__section-title {
+    font-family: $font-display;
+    font-size: clamp(2rem, 4.5vw, 2.85rem);
+    font-weight: 600;
+    font-variation-settings: 'SOFT' 100, 'WONK' 0;
+    color: $ink;
+    line-height: 1.12;
+    letter-spacing: -0.02em;
+  }
+
+  &__carousel {
+    @include container;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-md;
+  }
+
+  &__panels {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+  }
+
+  &__panel {
+    position: absolute;
+    inset: 0;
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    gap: clamp(1rem, 3vw, 2rem);
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(10px);
+    transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+    pointer-events: none;
+
+    &--active {
+      opacity: 1;
+      visibility: visible;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+  }
+
+  &__content {
+    background: $bg-card;
+    padding: clamp(1.75rem, 4vw, 2.75rem);
+    border-radius: $radius-md;
+    border: 1px solid $border;
+    box-shadow: $shadow-card;
+  }
+
+  &__panel-title {
+    font-family: $font-display;
+    font-size: clamp(1.5rem, 2.8vw, 1.95rem);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    color: $ink;
+    line-height: 1.15;
+  }
+
+  &__panel-text {
+    font-size: 1.03rem;
+    line-height: 1.75;
+    color: $ink-muted;
+
+    p {
+      margin-bottom: 0.75rem;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &__image-container {
+    position: relative;
+    min-height: min(380px, 50vw);
+    aspect-ratio: 4 / 5;
+    max-height: 480px;
+    border-radius: $radius-md;
+    overflow: hidden;
+    border: 1px solid $border;
+    box-shadow: $shadow-lift;
+  }
+
+  &__image {
+    object-fit: cover;
+  }
+
+  &__controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: $spacing-sm;
+    flex-wrap: wrap;
+  }
+
+  &__nav {
+    background: $bg-card;
+    border: 1px solid $border-strong;
+    width: 2.85rem;
+    height: 2.85rem;
+    border-radius: 999px;
+    font-size: 1.1rem;
+    line-height: 1;
+    color: $ink-muted;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+
+    &:hover {
+      color: $accent;
+      border-color: $accent;
+      background: $accent-ghost;
+    }
+  }
+
+  &__dots {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+    padding: 0 0.5rem;
+  }
+
+  &__dot {
+    width: 8px;
+    height: 8px;
+    border-radius: 999px;
+    border: none;
+    padding: 0;
+    background: rgb(42 38 36 / 0.15);
+    cursor: pointer;
+    transition: background 0.2s ease, transform 0.2s ease;
+
+    &:hover {
+      background: rgb(157 90 74 / 0.45);
+    }
+
+    &--active {
+      background: $accent;
+      transform: scale(1.15);
+    }
+  }
+
+  @media (max-width: $breakpoint-md) {
+    padding: $spacing-lg 0;
+
+    &__panels {
+      min-height: unset;
+    }
+
+    &__panel {
+      position: relative;
+      grid-template-columns: 1fr;
+      gap: 0;
+      opacity: 0;
+      visibility: hidden;
+      height: 0;
+      overflow: hidden;
+      transform: none;
+      transition: none;
+
+      &--active {
+        height: auto;
+        overflow: visible;
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+
+    &__image-container {
+      max-height: none;
+      aspect-ratio: 16 / 11;
+      min-height: 220px;
+      border-radius: 0 0 $radius-md $radius-md;
+      border-top: none;
+    }
+
+    &__content {
+      border-radius: $radius-md $radius-md 0 0;
+    }
+  }
+}

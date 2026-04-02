@@ -1,0 +1,114 @@
+@use '../d2-variables' as *;
+@use '../d2-mixins' as *;
+
+.d2-gallery {
+  padding: clamp(3.5rem, 9vw, 6rem) 0;
+  background: $d2-ivory;
+  position: relative;
+
+  &__head {
+    @include d2-container;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: clamp(2rem, 4vw, 2.75rem);
+    position: relative;
+
+    @media (max-width: $d2-break) {
+      align-items: center;
+      text-align: center;
+    }
+  }
+
+  &__watermark {
+    position: absolute;
+    top: -1.5rem;
+    right: clamp(0.5rem, 6vw, 4rem);
+    font-family: $d2-font-display;
+    font-size: clamp(4rem, 14vw, 9rem);
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(42 38 34 / 0.04);
+    pointer-events: none;
+    user-select: none;
+
+    @media (max-width: $d2-break) {
+      display: none;
+    }
+  }
+
+  &__title {
+    font-family: $d2-font-display;
+    font-size: clamp(2rem, 4.5vw, 3rem);
+    font-weight: 600;
+    color: $d2-charcoal;
+    line-height: 1.1;
+    position: relative;
+    z-index: 1;
+  }
+
+  &__desc {
+    font-family: $d2-font-ui;
+    font-size: 1.02rem;
+    color: rgb(42 38 34 / 0.65);
+    line-height: 1.65;
+    max-width: 36rem;
+    margin-top: 0.75rem;
+  }
+
+  &__grid {
+    @include d2-container;
+    columns: 3;
+    column-gap: 1.15rem;
+
+    @media (max-width: 1024px) {
+      columns: 2;
+    }
+
+    @media (max-width: 520px) {
+      columns: 1;
+    }
+  }
+
+  &__item {
+    break-inside: avoid;
+    margin-bottom: 1.15rem;
+    border-radius: $d2-radius-sm;
+    overflow: hidden;
+    box-shadow: 0 8px 32px rgb(42 38 34 / 0.08);
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+    &:hover {
+      transform: translateY(-4px) scale(1.01);
+      box-shadow: 0 20px 48px rgb(42 38 34 / 0.14);
+    }
+
+    &:nth-child(3n + 1) .d2-gallery__img-box {
+      padding-bottom: 100%;
+    }
+
+    &:nth-child(3n + 2) .d2-gallery__img-box {
+      padding-bottom: 125%;
+    }
+
+    &:nth-child(3n + 3) .d2-gallery__img-box {
+      padding-bottom: 150%;
+    }
+  }
+
+  &__img-box {
+    position: relative;
+    width: 100%;
+  }
+
+  &__image {
+    position: absolute;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.5s ease;
+
+    .d2-gallery__item:hover & {
+      transform: scale(1.04);
+    }
+  }
+}

@@ -1,7 +1,7 @@
 ---
 hero:
   title: London Doodles
-  subtitle: FAMILY HOME BREEDERS LONDON / HERTFORDSHIRE BORDE
+  subtitle: FAMILY HOME BREEDERS LONDON / HERTFORDSHIRE BORDER
   image: /images/dogs.jpg
 about:
   panels:
@@ -154,4 +154,6 @@ aboutUs:
     Many of our dogs are placed with families who have children or adults with additional needs, including autism and other SEN requirements. Whether they carry a formal title or not, these dogs make a real difference in people’s lives—and that’s exactly what we’re here for.
 contact:
   title: "Contact Amy on 07584010292 "
+  # WhatsApp: country code + number, digits only (UK mobile 07584… → 447584010292)
+  whatsappPhone: "447584010292"
 ---

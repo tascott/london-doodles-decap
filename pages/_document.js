@@ -1,11 +1,14 @@
-import { Html, Head, Main, NextScript } from 'next/document'
+import { Html, Head, Main, NextScript } from 'next/document';
 
 export default function Document() {
   return (
-    <Html>
+    <Html lang="en">
       <Head>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day&family=Mulish:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
         <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
         <link
           rel="icon"
@@ -17,5 +20,5 @@ export default function Document() {
         <NextScript />
       </body>
     </Html>
-  )
+  );
 }

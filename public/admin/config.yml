@@ -83,6 +83,11 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string", default: "Contact Us" }
+              - label: "WhatsApp number (digits only, with country code, no +)"
+                name: "whatsappPhone"
+                widget: "string"
+                required: false
+                hint: "Example UK 07584 010292 → 447584010292. Used for Chat on WhatsApp link."
       - label: "Available"
         name: "available"
         file: "content/available.md"
@@ -111,3 +116,8 @@ collections:
             widget: "object"
             fields:
               - { label: "Title", name: "title", widget: "string", default: "Contact Us" }
+              - label: "WhatsApp number (digits only, with country code, no +)"
+                name: "whatsappPhone"
+                widget: "string"
+                required: false
+                hint: "Example UK 07584 010292 → 447584010292."

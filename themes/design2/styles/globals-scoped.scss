@@ -1,0 +1,29 @@
+// Design 2 — scoped under .theme-design2 (see pages/_app.js)
+@use 'sass:meta';
+
+.theme-design2 {
+  font-family: 'Manrope', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  * {
+    box-sizing: border-box;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  @include meta.load-css('components/d2-nav');
+  @include meta.load-css('components/d2-hero');
+  @include meta.load-css('components/d2-about');
+  @include meta.load-css('components/d2-features');
+  @include meta.load-css('components/d2-gallery');
+  @include meta.load-css('components/d2-litters');
+  @include meta.load-css('components/d2-testimonials');
+  @include meta.load-css('components/d2-contact');
+
+  main {
+    padding-top: 0;
+  }
+}

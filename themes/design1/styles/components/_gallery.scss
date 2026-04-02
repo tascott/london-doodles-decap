@@ -1,0 +1,91 @@
+@use '../index' as *;
+
+.gallery {
+  padding: clamp(3.5rem, 8vw, 5.5rem) 0;
+  background: $bg-page;
+
+  &__title {
+    @include container;
+    font-family: $font-display;
+    font-size: clamp(2rem, 4.5vw, 2.85rem);
+    font-weight: 600;
+    font-variation-settings: 'SOFT' 100, 'WONK' 0;
+    margin-bottom: 0.65rem;
+    color: $ink;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-align: center;
+  }
+
+  &__description {
+    @include container;
+    max-width: 36rem;
+    margin: 0 auto clamp(2rem, 4vw, 2.75rem);
+    padding: 0 $spacing-md;
+    color: $ink-muted;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    text-align: center;
+  }
+
+  &__grid {
+    max-width: $container-wide;
+    margin: 0 auto;
+    columns: 3;
+    column-gap: 1rem;
+    padding: 0 clamp(1rem, 3vw, 1.5rem);
+
+    @media (max-width: $breakpoint-lg) {
+      columns: 2;
+    }
+
+    @media (max-width: 520px) {
+      columns: 1;
+    }
+  }
+
+  &__item {
+    break-inside: avoid;
+    margin-bottom: 1rem;
+    border-radius: $radius-md;
+    overflow: hidden;
+    background: $bg-card;
+    border: 1px solid $border;
+    box-shadow: $shadow-soft;
+    transition: transform 0.35s ease, box-shadow 0.35s ease;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: $shadow-card;
+    }
+
+    &:nth-child(3n + 1) .gallery__image-container {
+      padding-bottom: 100%;
+    }
+
+    &:nth-child(3n + 2) .gallery__image-container {
+      padding-bottom: 125%;
+    }
+
+    &:nth-child(3n + 3) .gallery__image-container {
+      padding-bottom: 150%;
+    }
+  }
+
+  &__image-container {
+    position: relative;
+    width: 100%;
+  }
+
+  &__image {
+    position: absolute;
+    object-fit: cover;
+    object-position: center top;
+    transition: transform 0.55s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform-origin: center top;
+
+    .gallery__item:hover & {
+      transform: scale(1.03);
+    }
+  }
+}

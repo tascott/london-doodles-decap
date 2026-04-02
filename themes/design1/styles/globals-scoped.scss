@@ -1,0 +1,25 @@
+// Loaded from _app alongside default theme. All rules sit under .theme-design1
+// so they only apply on /design1 (wrapper in HomePage).
+@use 'sass:meta';
+@use 'index' as *;
+
+.theme-design1 {
+  font-family: $font-body;
+  line-height: 1.65;
+  color: $text-color;
+  background-color: $bg-page;
+  min-height: 100vh;
+
+  @include meta.load-css('components/nav');
+  @include meta.load-css('components/hero');
+  @include meta.load-css('components/about');
+  @include meta.load-css('components/features');
+  @include meta.load-css('components/gallery');
+  @include meta.load-css('components/upcoming-litters');
+  @include meta.load-css('components/testimonials');
+  @include meta.load-css('components/contact');
+
+  main {
+    padding-top: 0;
+  }
+}

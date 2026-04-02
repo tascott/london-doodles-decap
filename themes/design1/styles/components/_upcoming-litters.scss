@@ -1,0 +1,74 @@
+@use '../index' as *;
+
+.upcoming-litters {
+  padding: clamp(3.5rem, 8vw, 5.5rem) 0;
+  background: $bg-alt;
+  border-top: 1px solid $border;
+
+  &__title {
+    @include container;
+    font-family: $font-display;
+    font-size: clamp(2rem, 4.5vw, 2.75rem);
+    font-weight: 600;
+    font-variation-settings: 'SOFT' 100, 'WONK' 0;
+    margin-bottom: clamp(2rem, 4vw, 2.75rem);
+    color: $ink;
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    text-align: center;
+    max-width: 22ch;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__grid {
+    @include container;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr));
+    gap: 1.35rem;
+    padding: 0 $spacing-sm;
+  }
+
+  &__item {
+    background: $bg-card;
+    padding: 2rem 1.75rem;
+    border-radius: $radius-md;
+    border: 1px solid $border;
+    box-shadow: $shadow-soft;
+    transition: box-shadow 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+      box-shadow: $shadow-card;
+      transform: translateY(-2px);
+    }
+
+    &-title {
+      font-family: $font-display;
+      font-size: 1.22rem;
+      font-weight: 600;
+      margin-bottom: 0.85rem;
+      color: $ink;
+      line-height: 1.25;
+    }
+
+    &-date {
+      display: inline-block;
+      font-family: $font-body;
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: $evergreen;
+      background: rgb(61 79 66 / 0.08);
+      padding: 0.4rem 0.75rem;
+      border-radius: $radius-sm;
+      margin-bottom: 1rem;
+    }
+
+    &-description {
+      color: $ink-muted;
+      line-height: 1.7;
+      font-size: 0.98rem;
+    }
+  }
+}

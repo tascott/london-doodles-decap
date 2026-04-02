@@ -1,0 +1,128 @@
+@use '../d2-variables' as *;
+@use '../d2-mixins' as *;
+
+.d2-hero {
+  position: relative;
+  min-height: min(92vh, 900px);
+  background: $d2-dark;
+  padding-top: 5.5rem;
+  overflow: hidden;
+
+  &__layout {
+    @include d2-container;
+    display: grid;
+    grid-template-columns: 1fr 1.05fr;
+    gap: clamp(1.5rem, 4vw, 3rem);
+    align-items: center;
+    min-height: calc(min(92vh, 900px) - 5.5rem);
+    padding-bottom: clamp(2rem, 6vw, 4rem);
+
+    @media (max-width: $d2-break) {
+      grid-template-columns: 1fr;
+      min-height: unset;
+      text-align: center;
+    }
+  }
+
+  &__copy {
+    position: relative;
+    z-index: 2;
+    max-width: 34rem;
+
+    @media (max-width: $d2-break) {
+      max-width: none;
+      order: 2;
+    }
+  }
+
+  &__eyebrow {
+    font-family: $d2-font-ui;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.28em;
+    text-transform: uppercase;
+    color: $d2-copper-light;
+    margin-bottom: 1.25rem;
+    line-height: 1.5;
+  }
+
+  &__title {
+    font-family: $d2-font-display;
+    font-size: clamp(2.75rem, 7vw, 4.75rem);
+    font-weight: 600;
+    line-height: 1.02;
+    color: $d2-ivory;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.5rem;
+
+    &-accent {
+      background: linear-gradient(135deg, $d2-ivory 0%, $d2-copper-light 45%, $d2-copper 100%);
+      -webkit-background-clip: text;
+      background-clip: text;
+      -webkit-text-fill-color: transparent;
+      color: transparent;
+    }
+  }
+
+  &__rule {
+    @include d2-copper-line;
+    margin-bottom: 1.5rem;
+
+    @media (max-width: $d2-break) {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  &__tagline {
+    font-family: $d2-font-ui;
+    font-size: 1.05rem;
+    font-weight: 500;
+    line-height: 1.65;
+    color: $d2-muted;
+    max-width: 28ch;
+  }
+
+  &__visual {
+    position: relative;
+    min-height: clamp(280px, 50vh, 560px);
+    border-radius: $d2-radius;
+    overflow: hidden;
+    box-shadow:
+      0 4px 6px rgb(0 0 0 / 0.15),
+      0 24px 48px rgb(0 0 0 / 0.35),
+      inset 0 0 0 1px rgb(255 255 255 / 0.06);
+
+    @media (max-width: $d2-break) {
+      order: 1;
+      min-height: 42vw;
+      max-height: 320px;
+    }
+  }
+
+  &__image {
+    object-fit: cover !important;
+    object-position: center 25% !important;
+  }
+
+  &__glow {
+    pointer-events: none;
+    position: absolute;
+    inset: -20% -10% auto 40%;
+    height: 70%;
+    background: radial-gradient(ellipse at center, rgb(212 145 90 / 0.18) 0%, transparent 65%);
+    z-index: 1;
+  }
+
+  &__organic {
+    pointer-events: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 35%;
+    background: linear-gradient(0deg, $d2-dark 0%, transparent 100%);
+    z-index: 2;
+    border-radius: 0 0 $d2-radius $d2-radius;
+  }
+}

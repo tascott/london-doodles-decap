@@ -23,6 +23,7 @@ gallery:
   images: []
 contact:
   title: Contact Us
+  whatsappPhone: "447584010292"
 aboutUs:
   title: Interested in Adopting?
   description: If you're interested in adopting one of our available doodles,

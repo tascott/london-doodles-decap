@@ -1,0 +1,143 @@
+@use '../d2-variables' as *;
+@use '../d2-mixins' as *;
+
+.d2-features {
+  padding: clamp(3.5rem, 9vw, 6rem) 0;
+  background: $d2-charcoal;
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(ellipse 80% 50% at 10% 0%, rgb(184 115 51 / 0.08) 0%, transparent 50%),
+      radial-gradient(ellipse 60% 40% at 90% 100%, rgb(212 145 90 / 0.06) 0%, transparent 45%);
+    pointer-events: none;
+  }
+
+  &__head {
+    @include d2-container;
+    position: relative;
+    z-index: 1;
+    margin-bottom: clamp(2rem, 5vw, 3rem);
+    text-align: center;
+    max-width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &__label {
+    font-family: $d2-font-ui;
+    font-size: 0.7rem;
+    font-weight: 800;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: $d2-copper-light;
+    margin-bottom: 0.65rem;
+  }
+
+  &__title {
+    font-family: $d2-font-display;
+    font-size: clamp(1.85rem, 4vw, 2.65rem);
+    font-weight: 600;
+    color: $d2-ivory;
+    line-height: 1.15;
+  }
+
+  &__grid {
+    @include d2-container;
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 1rem;
+
+    @media (max-width: $d2-break) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__card {
+    background: rgb(30 27 24 / 0.85);
+    border: 1px solid rgb(184 115 51 / 0.12);
+    border-radius: $d2-radius-sm;
+    padding: 1.5rem 1.35rem;
+    transition: border-color 0.25s ease, transform 0.25s ease, box-shadow 0.25s ease;
+
+    &:hover {
+      border-color: rgb(184 115 51 / 0.35);
+      transform: translateY(-3px);
+      box-shadow: 0 20px 50px rgb(0 0 0 / 0.25);
+    }
+
+    @media (min-width: 769px) {
+      &:nth-child(1) {
+        grid-column: span 7;
+      }
+
+      &:nth-child(2) {
+        grid-column: span 5;
+      }
+
+      &:nth-child(3) {
+        grid-column: span 6;
+      }
+
+      &:nth-child(4) {
+        grid-column: span 6;
+      }
+
+      /* Full-width rows: Puppy Pack (5th) + Lifetime support (6th) */
+      &:nth-child(5),
+      &:nth-child(6) {
+        grid-column: span 12;
+        display: grid;
+        grid-template-columns: auto minmax(0, 1fr);
+        gap: 1.25rem;
+        align-items: start;
+
+        .d2-features__icon-wrap {
+          margin-bottom: 0;
+        }
+
+        .d2-features__card-text {
+          min-width: 0;
+        }
+      }
+    }
+  }
+
+  &__svg {
+    display: block;
+  }
+
+  &__icon-wrap {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 12px;
+    background: linear-gradient(145deg, rgb(184 115 51 / 0.2), rgb(184 115 51 / 0.05));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: $d2-copper-light;
+  }
+
+  &__card-title {
+    font-family: $d2-font-display;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: $d2-ivory;
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+  }
+
+  &__card-text {
+    font-family: $d2-font-ui;
+    font-size: 0.92rem;
+    line-height: 1.65;
+    color: rgb(247 244 238 / 0.65);
+  }
+}
