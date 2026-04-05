@@ -21,7 +21,13 @@ gallery:
 
 
     Raised on either raw or butternut (new owners preference) they will be have the best start in life. We use food as part of their early training and mental engagement.
-  images: []
+  images:
+    - image: /images/82766.jpg
+      alt: Pup
+    - image: /images/82746.jpg
+      alt: Pup
+    - image: /images/82762.jpg
+      alt: Pup
 contact:
   title: Contact Us
   whatsappPhone: "447584010292"
