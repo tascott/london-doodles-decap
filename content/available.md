@@ -1,16 +1,17 @@
 ---
 hero:
   title: Available Puppies
-  subtitle: Due any day now we will have miniature / toy chocolate labradoodles
+  subtitle: Miniature / Medium Australian Type Labradoodles
   image: /images/dogs.jpg
 gallery:
-  title: Small Miniature Labradoodles Due Soon
+  title: "Black and Phantom Australian Labradoodles "
   description: >-
-    We are imminently due a little of small miniature / toy sized labradoodle
-    puppies. These are not Australian Labradoodles.
+    We have a lovely litter of puppies ready for their new homes from the 24th
+    of April. They will be vet checked, microchipped, vaccinated and up to date
+    with flea and worm. 
 
 
-    Mum is a beuatiful deep brown and dad is our lovely toy poodle Dylan. Puppies will have lovely soft, non shedding coats. This is going to be a very small litter so early interest is essential. Puppies will be read for their new homes in January. All puppies will be chocolate in colour.
+    Mum is a small standard size with excellent hip and elbow scores and dad is a large miniature size. Fully DNA tested for an extensive list of over 150 conditions All puppies are black, black with white marking or or black and tan (phantom).
 
 
     Fully DNA tested for an extensive list of over 150 conditions.
