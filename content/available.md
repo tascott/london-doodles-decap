@@ -14,10 +14,10 @@ gallery:
     Mum is a small standard size with excellent hip and elbow scores and dad is a large miniature size. Fully DNA tested for an extensive list of over 150 conditions All puppies are black, black with white marking or or black and tan (phantom).
 
 
-    Fully DNA tested for an extensive list of over 150 conditions.
+    Raised in our family home, with other dogs, children, our cat and the daily business of our life. Once old enough they will start coming with us to our private fields to work on basic training and socialisation.
 
 
-    Raied in our family home, with other dogs, children, our cat and the daily business of our life. Once old enough they will start coming with us to our private fields to work on basic training and socialisation.
+    We have a focus on raising our puppies to be calm and sociable and place many puppies in homes with children with SEN.
 
 
     Raised on either raw or butternut (new owners preference) they will be have the best start in life. We use food as part of their early training and mental engagement.
