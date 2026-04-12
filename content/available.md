@@ -34,6 +34,10 @@ gallery:
       alt: pup
     - image: /images/whatsapp-image-2026-04-10-at-19.32.51-1-.jpeg
       alt: pup
+    - image: /images/whatsapp-image-2026-04-10-at-19.31.56.jpeg
+      alt: pup
+    - image: /images/whatsapp-image-2026-04-10-at-19.31.29.jpeg
+      alt: pup
 contact:
   title: Contact Us
   whatsappPhone: "447584010292"
