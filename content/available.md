@@ -11,10 +11,10 @@ gallery:
     with flea and worm. 
 
 
-    Mum is a small standard size with excellent hip and elbow scores and dad is a large miniature size. Fully DNA tested for an extensive list of over 150 conditions All puppies are black, black with white marking or or black and tan (phantom).
+    Mum is a small standard size with excellent hip (2/3) and elbow scores (0/0) and dad is a large miniature size. Fully DNA tested for an extensive list of over 150 conditions All puppies are black, black with white marking or black and tan (phantom).
 
 
-    Raised in our family home, with other dogs, children, our cat and the daily business of our life. Once old enough they will start coming with us to our private fields to work on basic training and socialisation.
+    Raised in our family home, with other dogs, children, our cat and the daily madness of our life. Once they are old enough they will start coming with us to our private fields to work on basic training and socialisation. This gives them an amazing start in life.
 
 
     We have a focus on raising our puppies to be calm and sociable and place many puppies in homes with children with SEN.
