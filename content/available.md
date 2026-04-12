@@ -21,6 +21,9 @@ gallery:
 
 
     Raised on either raw or butternut (new owners preference) they will be have the best start in life. We use food as part of their early training and mental engagement.
+
+
+    We have 2 females and 2 males available for their new homes.
   images:
     - image: /images/82766.jpg
       alt: Pup
