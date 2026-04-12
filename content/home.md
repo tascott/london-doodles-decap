@@ -111,18 +111,17 @@ gallery:
 upcomingLitters:
   title: Upcoming Litters
   litters:
-    - title: Small Miniature Labradoodles
+    - title: Medium / Miniature Australian Type Labradoodles
       description: >-
-        Any day now (mid November) we are due a beautiful litter of small
-        miniature labradoodles. All puppies will be chocolate. Ready for their
-        new homes in January.
+        Born Feb 2026
 
+        Goldie and Rufus have had the most fantastic litter of puppies. All of them are black or phantom. Please see available puppies for more information. Ready for their new homes at the end of April.
 
         All Puppies £3000
-      date: Due November 2025
-    - title: Miniature Labradoodles
+      date: Ready End of April 2026
+    - title: Miniature Chocolate Labradoodles
       description: If you would like to join our waiting lists please contact me
-      date: "2026"
+      date: Due May 2026
 testimonials:
   title: What Our Families Say
   items:
@@ -154,6 +153,5 @@ aboutUs:
     Many of our dogs are placed with families who have children or adults with additional needs, including autism and other SEN requirements. Whether they carry a formal title or not, these dogs make a real difference in people’s lives—and that’s exactly what we’re here for.
 contact:
   title: "Contact Amy on 07584010292 "
-  # WhatsApp: country code + number, digits only (UK mobile 07584… → 447584010292)
   whatsappPhone: "447584010292"
 ---
