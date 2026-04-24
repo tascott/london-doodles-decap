@@ -5,13 +5,13 @@ hero:
   image: /images/dogs.jpg
 gallery:
   title: "Black and Phantom Australian Labradoodles "
-  description: >-
+  description: >
     We have a lovely litter of puppies ready for their new homes from the 24th
     of April. They will be vet checked, microchipped, vaccinated and up to date
     with flea and worm. 
 
 
-    Mum is a small standard size with excellent hip (2/3) and elbow scores (0/0) and dad is a large miniature size. Fully DNA tested for an extensive list of over 150 conditions All puppies are black, black with white marking or black and tan (phantom).
+    Mum is a small standard size with excellent hip (2/3) and elbow scores (0/0) and dad is miniature size. Fully DNA tested for an extensive list of over 150 conditions All puppies are black, black with white marking or black and tan (phantom).
 
 
     Raised in our family home, with other dogs, children, our cat and the daily madness of our life. Once they are old enough they will start coming with us to our private fields to work on basic training and socialisation. This gives them an amazing start in life.
@@ -24,6 +24,9 @@ gallery:
 
 
     We have 2 females and 2 males available for their new homes.
+
+
+    £1500 to £2500
   images:
     - image: /images/82766.jpg
       alt: Pup
