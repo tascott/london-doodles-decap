@@ -117,7 +117,7 @@ upcomingLitters:
 
         Goldie and Rufus have had the most fantastic litter of puppies. All of them are black or phantom. Please see available puppies for more information. Ready for their new homes at the end of April.
 
-        All Puppies £3000
+        Puppies are £1500 to £2500
       date: Ready End of April 2026
     - title: Miniature Chocolate Labradoodles
       description: If you would like to join our waiting lists please contact me
