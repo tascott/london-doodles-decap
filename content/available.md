@@ -1,7 +1,7 @@
 ---
 hero:
   title: Available Puppies
-  subtitle: Miniature / Medium Australian Type Labradoodles
+  subtitle: Medium Australian Labradoodle £4000
   image: /images/dogs.jpg
 gallery:
   title: "Black and Phantom Australian Labradoodles "
