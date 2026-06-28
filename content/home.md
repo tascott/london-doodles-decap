@@ -111,17 +111,15 @@ gallery:
 upcomingLitters:
   title: Upcoming Litters
   litters:
-    - title: Medium / Miniature Australian Type Labradoodles
+    - title: Medium Labradoodle Female
       description: >-
         Born Feb 2026
 
-        Goldie and Rufus have had the most fantastic litter of puppies. All of them are black or phantom. Please see available puppies for more information. Ready for their new homes at the end of April.
-
-        Puppies are £1500 to £2500
-      date: Ready End of April 2026
-    - title: Miniature Chocolate Labradoodles
+        Goldie and Rufus have had the most fantastic litter of puppies. We have one trained female available. £4000
+      date: Ready now
+    - title: Australian Labradoodles
       description: If you would like to join our waiting lists please contact me
-      date: Due May 2026
+      date: Sumer 2026
 testimonials:
   title: What Our Families Say
   items:
