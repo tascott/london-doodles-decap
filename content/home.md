@@ -113,9 +113,12 @@ upcomingLitters:
   litters:
     - title: Medium Labradoodle Female
       description: >-
-        Born Feb 2026
+        Born in February 2026, Poppy is an extensively trained black, medium,
+        female Australian Labradoodle. She was being trained as an emotional
+        support dog for a family with autistic children; unfortunately, this
+        home has fallen through.
 
-        Goldie and Rufus have had the most fantastic litter of puppies. We have one trained female available. £4000
+        £4500
       date: Ready now
     - title: Australian Labradoodles - £3000
       description: >
