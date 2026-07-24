@@ -117,8 +117,14 @@ upcomingLitters:
 
         Goldie and Rufus have had the most fantastic litter of puppies. We have one trained female available. £4000
       date: Ready now
-    - title: Australian Labradoodles
-      description: If you would like to join our waiting lists please contact me
+    - title: Australian Labradoodles - £3000
+      description: >
+        We are hopefully expecting a litter of red / apricot small miniaiture
+        australian type labradoodles. Mum, Mabel is an apricot small miniature
+        labradoodle and dad is a miniature apricot Australian type labradoodle.
+        Puppies are expected to be born mid September and will be ready for
+        their new homes mid October. We expect an adult of weight of roughly 5
+        to 10kg.
       date: Sumer 2026
 testimonials:
   title: What Our Families Say
