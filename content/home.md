@@ -111,24 +111,18 @@ gallery:
 upcomingLitters:
   title: Upcoming Litters
   litters:
-    - title: Medium Labradoodle Female
-      description: >-
-        Born in February 2026, Poppy is an extensively trained black, medium,
-        female Australian Labradoodle. She was being trained as an emotional
-        support dog for a family with autistic children; unfortunately, this
-        home has fallen through.
-
-        £4500
-      date: Ready now
     - title: Australian Labradoodles - £3000
       description: >
-        We are hopefully expecting a litter of red / apricot small miniaiture
+        We have a lovely litter litter of red / apricot small miniaiture
         australian type labradoodles. Mum, Mabel is an apricot small miniature
         labradoodle and dad is a miniature apricot Australian type labradoodle.
-        Puppies are expected to be born mid September and will be ready for
-        their new homes mid October. We expect an adult of weight of roughly 5
-        to 10kg.
-      date: Sumer 2026
+        Puppies ready for their new homes at 8 weeks. We expect an adult of
+        weight of roughly 5 to 10kg.
+      date: "Ready Beginning of November "
+    - title: " 2027 potential breeding "
+      description: We may have a litter of multigeneration australian-labradoodles
+        ready for new homes in the new year
+      date: "2027"
 testimonials:
   title: What Our Families Say
   items:
