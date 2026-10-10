@@ -111,13 +111,13 @@ gallery:
 upcomingLitters:
   title: Upcoming Litters
   litters:
-    - title: Australian Labradoodles - £3000
+    - title: Miniature Multigen Australian Labradoodles - £3000
       description: >
         We have a lovely litter litter of red / apricot small miniaiture
         australian type labradoodles. Mum, Mabel is an apricot small miniature
-        labradoodle and dad is a miniature apricot Australian type labradoodle.
-        Puppies ready for their new homes at 8 weeks. We expect an adult of
-        weight of roughly 5 to 10kg.
+        labradoodle and dad is a miniature red. We have 2 boys available and
+        they are ready for their new homes at 8 weeks. We expect an adult of
+        weight of roughly 7 to 10kg.
       date: "Ready Beginning of November "
     - title: " 2027 potential breeding "
       description: We may have a litter of multigeneration australian-labradoodles
