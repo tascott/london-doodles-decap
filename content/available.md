@@ -20,6 +20,9 @@ gallery:
 
 
     Puppies all start toilet training, basic commands like sit, and exposure to crate training.
+
+
+    £2500 to £2750
   images:
     - image: /images/105606.jpg
       alt: Pup
