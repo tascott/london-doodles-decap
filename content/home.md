@@ -111,7 +111,7 @@ gallery:
 upcomingLitters:
   title: Upcoming Litters
   litters:
-    - title: Miniature Multigen Australian Labradoodles - £2750
+    - title: Miniature Multigen Australian Labradoodles - £2500
       description: >
         We have a lovely litter litter of red / apricot small miniaiture
         australian type labradoodles. Mum, Mabel is an apricot small miniature
