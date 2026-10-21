@@ -8,8 +8,8 @@ gallery:
   description: >-
     We have a lovely litter of 5 miniature doodles, only 2 boys are available
     for their new homes. Puppies have a background of labrador, miniature and
-    toy poodle, American cocker spaniel and bichon which helps with calmness and
-    the large genetic diversity which is essential for hybrid vigour.
+    toy poodle, American cocker spaniel which helps with calmness and the large
+    genetic diversity which is essential for hybrid vigour.
 
      Mum is a small miniature size fully DNA tested for an extensive list of over 150 conditions. Dad is miniature size so there will be some variety in size within the litter. 
 
